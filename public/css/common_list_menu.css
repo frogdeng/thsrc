@@ -1,0 +1,391 @@
+.top_nav ul li {
+	position: relative;
+	z-index: 10;
+}
+.top_nav ul li ul {
+	width: 973px;
+	position: absolute;
+	top: 45px;
+	background-image: url(/Content/images_cn/common/listMenu.jpg);
+	background-repeat: repeat-x;
+	height: 334px;
+	padding-top: 20px;
+	display: none;
+}
+.top_nav ul li.current ul {
+	display: block;
+}
+.top_nav li.current  ul li a {
+	background-image: none;
+}
+
+
+.top_nav ul ul li {
+	width: 139px;
+	height: 25px;
+	float: left;
+}
+.top_nav ul ul li a {
+	display: block;
+	background-color: transparent;
+	background-image: none;
+	width: 114px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 5px;
+	line-height: 1.2em;
+}
+
+.top_nav ul li ul a {
+	background-image: none;
+	text-indent: 0px;
+	font-size: 15px;
+	color: #dc5505;
+	font-weight: bold;
+}
+
+.top_nav ul  li ul ul {
+	background-repeat: no-repeat;
+	width: 138px;
+	position: relative;
+	left: 0px;
+	background-image: none;
+	height: 280px;
+	top: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #c7c7c7;
+	padding-top: 0px;
+	clear: none;
+}
+.top_nav ul ul li li {
+	width: 123px;
+	margin-bottom: 10px;
+	height: auto;
+	padding-left: 15px;
+}
+.top_nav ul ul li ul li a {
+	font-size: 12px;
+	color: #2d2929;
+	font-weight: normal;
+	line-height: 15px;
+	display: inline;
+	text-indent: 0px;
+	padding: 0px;
+}
+.top_nav ul ul li a:hover {
+	background-color: transparent;
+	background-image: none;
+}
+
+.top_nav ul ul li li a:hover {
+	background-color: transparent;
+	background-image: none;
+	color: #db5106;
+}
+
+.nav_about ul {
+	/*left: -520px;*/
+	left: -624px;
+}
+.nav_ticket ul {
+	left: 0px;
+}
+.nav_info ul {
+	/*left: -130px;*/
+	left: -156px;
+}
+.nav_hot ul {
+	/*left: -260px;*/
+	left: -312px;
+}
+.nav_life ul {
+	/*left: -390px;*/
+	left: -468px;
+}
+.nav_member ul {
+	left: -650px;
+}
+/*2012/11/12*/
+.top_nav ul li ul {
+	width: 973px;
+	position: absolute;
+	top: 45px;
+	background-image: url(/Content/images_cn/common/listMenu.jpg);
+	background-repeat: repeat-x;
+	height: 334px;
+	padding-top: 20px;
+	display: none;
+}
+
+.top_nav ul li.current ul {
+	display: block;
+}
+.top_nav li.current  ul li a {
+	background-image: none;
+}
+
+
+.top_nav ul ul li {
+	width: 139px;
+	height: 25px;
+	float: left;
+}
+.top_nav ul ul li a {
+	display: block;
+	background-color: transparent;
+	background-image: none;
+	width: 114px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 5px;
+	line-height: 1.2em;
+}
+
+.top_nav ul li ul a {
+	background-image: none;
+	text-indent: 0px;
+	font-size: 15px;
+	color: #dc5505;
+	font-weight: bold;
+}
+
+.top_nav ul  li ul ul {
+	background-repeat: no-repeat;
+	width: 138px;
+	position: relative;
+	left: 0px;
+	background-image: none;
+	height: 280px;
+	top: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #c7c7c7;
+	padding-top: 0px;
+	clear: none;
+}
+.top_nav ul ul li li {
+	width: 123px;
+	margin-bottom: 10px;
+	height: auto;
+	padding-left: 15px;
+}
+.top_nav ul ul li ul li a {
+	font-size: 12px;
+	color: #504e4a;
+	font-weight: normal;
+	line-height: 15px;
+	display: inline;
+	text-indent: 0px;
+	padding: 0px;
+}
+.top_nav ul ul li a:hover {
+	background-color: transparent;
+	background-image: none;
+}
+
+.top_nav ul ul li li a:hover {
+	background-color: transparent;
+	background-image: none;
+	color: #db5106;
+}
+
+.nav_hot .dl {
+	/*left: -260px;*/
+	left: 0px;
+}
+.nav_ticket .dl {
+	/*left: -260px;*/
+	left: -156px;
+	/*left: 0px;*/
+}
+.nav_info .dl {
+	/*left: -130px;*/
+	left: -312px;
+}
+.nav_life .dl {
+	/*left: -390px;*/
+	left: -695px;
+}
+.nav_about .dl {
+	/*left: -520px;*/
+	left: -468px;
+}
+.nav_member .dl {
+	left: -650px;
+}
+.nav_relationship .dl {
+	left: -780px;
+}
+.top_nav ul li .dl {
+	width: 973px;
+	position: absolute;
+	top: 45px;
+	height: 272px;
+	padding-bottom:10px;
+	background-color: #F2F2EA;
+	border-top-width: 7px;
+	border-top-style: solid;
+	border-top-color: #938673;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC1AF;
+	display: none;
+}
+.top_nav ul li.current .dl {
+	display: block;
+}
+
+.first_list {
+	width: 217px;
+	padding-left: 20px;
+	float: left;
+}
+.list_area {
+	width: 179px;
+	float: left;
+	padding-top: 18px;
+}
+.list_area_en {
+	width: 238px;
+	float: left;
+	padding-top: 15px;
+}
+
+.top_nav ul  li .dl .has_photo_list {
+	width: 227px;
+	height: 139px;
+	padding-top: 20px;
+}
+.top_nav ul li .dl .photo_list_word {
+	width: 208px;
+	color: #ADAB9F;
+	line-height: 1.5em;
+	height: 60px;
+	padding-right: 19px;
+	clear: both;
+	font-size: 11px;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	letter-spacing: 2px;
+}
+.top_nav ul li .dl .photo_list_Title {
+	width: 208px;
+	color: #ADAB9F;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right: 19px;
+	clear: both;
+	font-size: 11px;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	letter-spacing: 2px;
+}
+.top_nav ul .dl img {
+	border: 4px solid #8A8373;
+}
+.top_nav ul .dl .dt, .top_nav ul .dl .dd {
+	padding-left: 10px;
+
+}
+.top_nav ul .dl .dt a, .top_nav ul .dl .dd a {
+	display: block;
+	height:auto;
+	background: none;
+	text-indent: 0px;
+	background:url(/Content/images_cn/common/pic.png) no-repeat right 5px;
+	position:relative;
+	
+}
+.top_nav ul .dl .dt a em, .top_nav ul .dl .dd a em{
+	position:absolute;
+	background:url(/Content/images_cn/common/menu_line.png);
+	width:156px;
+	height:1px;
+	bottom:-8px;
+	left:1px;
+}
+.list_area .dt a {
+	font-size: 15px;
+	color: #DC5505;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+.list_area .dt {
+	margin-bottom: 16px;
+}
+.list_area .dt a:hover {
+	color: #db5106;
+}
+
+.list_area .dd a {
+/*	font-size: 12px;*/
+/* 20160304 AA*/
+	font-size: 1em;
+	color: #2d2929;
+}
+.list_area .dd a:hover {
+	color: #db5106;
+}
+.list_area .dd {
+	margin-bottom: 16px;
+}
+.just_line {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E0E0E0;
+	clear: both;
+	height: 20px;
+}
+.top_nav ul .dl .dtnolink 
+{
+    padding-left: 10px;
+    display: block;
+	height:auto;
+	background: none;
+	text-indent: 0px;
+}
+
+.list_area .dtnolink {
+	margin-bottom: 16px;
+	font-size: 15px;
+	color: #DC5505;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+.list_line 
+{
+    width: 1.5px;
+    float: left;
+    border-right: #FFFFFF 1.5px solid;
+    height:252px;
+    margin-top:15px;
+}
+
+.top_nav ul li .dl.height_304{ height: 344px;}
+.list_area .dd a.notOpen{ color: #cacaca; cursor:text;}
+.list_area .dd a.notOpen:hover{ color: #cacaca;}
+
+/* 2015-9-2 首頁選單裝飾白線 */
+.top_nav .height_304 .list_line{ height:330px;}
+
+/* 20160307 Chris add */
+.top_nav.top_nav_tw .nav_ticket .dl{
+	left:-139px;
+}
+.top_nav.top_nav_tw .nav_info .dl{
+	left:-278px;
+}
+.top_nav.top_nav_tw .nav_about .dl {
+    left: -417px;
+}
+.top_nav.top_nav_tw .nav_sponsor .dl {
+    left: -556px;
+}
+/* 20160307 Chris add */
+
+.top_nav.top_nav_tw .nav_life .dl {
+    left: -695px;
+}

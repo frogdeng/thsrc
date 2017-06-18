@@ -1,0 +1,1848 @@
+
+/* header 改寫 */
+.ui-header .mainLinkList, .ui-header .mainLinkList:hover{
+	height: 38px;
+    width: 38px;
+    background-size: 38px 38px;
+    top: 7px;
+    right: 10px;
+}
+/* content 改寫 */
+.contentFull.ui-content{
+	padding-top: 0px;
+}
+.contentFull{
+	padding:0;
+	background: #fff;
+}
+
+.contentFull.padding1em{
+	padding:1em;
+}
+
+.stationSaleBG{
+	background: #f2f2f2;
+	padding-top:20px;
+}
+/* footer 改寫 */
+.footerContact .orangeTitle {
+    font-size: 1.1em;
+	display:inline-block;
+}
+.footerContact .timeRange {
+    font-size: 0.5em;
+	display:inline-block;
+}
+.commonMainTitle{
+	text-align: center;
+    font-size: 1.1875em;
+    font-weight: bold;
+    color: #db5106;
+    padding: 7px 0px;
+	background: url(../images/commonMainTitle.png) 100% 100%;
+}
+/* topButton */
+.topButton{
+	width: 40px;
+    height: 40px;
+    background: url(../images/topButton.png);
+    cursor: pointer;
+    background-size: 100% 100%;
+	position: fixed;
+    top: 85%;
+    right: 5%;
+    z-index: 9999;
+	display:none;
+}
+/* interChangeNav */
+.interChangeNav li a,.interChangeNav li a:hover{color:#a5a3a0;}
+.secondMenuGroup{background:#f2f2f2;background-size:10px 44px;overflow:auto;width:100%;position:relative;}
+	.secondMenuGroup ul{padding:0px;margin:0px;list-style:none;white-space:nowrap;font-size:0px;height:40px;display:none;}
+	.secondMenuGroup ul.current{display:block;}
+	.secondMenuGroup ul:after{content:'';display:block;clear:both;}
+		.secondMenuGroup li{font-size:14px;display:inline-block;padding:0px 12px;position:relative;}
+			.secondMenuGroup li:after{content:'';display:block;width:1px;height:17px;background:#ccc;position:absolute;right:0px;top:12px;}
+			.secondMenuGroup li a,.secondMenuGroup li a:hover{display:block;padding:12px 0px;color:#817e79;width:100%;position:relative;}
+			.secondMenuGroup li a:active,.secondMenuGroup li.current a{color:#de5e18;}
+
+.secondMenuGroup.onePage{background:url(../images/interchange_bg.jpg) repeat-x;height:44px;background-size: 10px 44px;}
+	.secondMenuGroup.onePage ul{height:auto;display:block;}
+		.secondMenuGroup.onePage li:after{content:'';display:block;width:1px;height:17px;background:#e5e5e5;position:absolute;right:0px;top:12px;}
+		.secondMenuGroup.onePage li a:active,.secondMenuGroup.onePage li.current a{color:#de5e18;}
+		.secondMenuGroup.onePage li a:active:after,.secondMenuGroup.onePage li.current a:after{content:'';display:block;width:100%;height:4px;background:#f9a534;position:absolute;bottom:0px;left:0px;}
+/* articleArea */
+.articleArea{
+	display:none;
+}
+.articleArea.marginBottom40{
+	margin-bottom: 40px;
+}
+.articleArea.current{
+	display:block;
+}
+.articleArea .articleSection{
+	display:block;
+}
+.articleArea .articleSection .modArticle{
+	padding:1em;
+}
+/* modArticle */
+.modArticle{
+	margin-bottom:35px;
+	display:block;
+}
+
+.modArticle .articleTitle{
+	padding-left: 8px;
+    background: #958875;
+}
+
+.modArticle .articleTitle .articleTitleContent{
+	display: block;
+    background: #f2f2f2;
+    padding: 8px 18px;
+    color: #de5e18;
+}
+.modArticle.formMethod{
+	overflow: auto;
+}
+
+.modArticle h2{
+	font-size: 1em;
+}
+
+.modArticle h3{
+	font-size: 1em;
+    margin-top: 20px;
+	padding: 0px 15px;
+	line-height: 25px;
+}
+
+.modArticle p{
+	margin-top: 8px;
+    margin-bottom: 8px;
+	line-height: 25px;
+	padding: 0px 15px;
+}
+
+.modArticle ul{
+	padding-left: 4px;
+}
+
+.modArticle ul li{
+	list-style: none;
+    background: url(../images/listSquare.png) no-repeat;
+    padding-left: 30px;
+    background-position: 14px 10px;
+    line-height: 25px;
+    background-size: 6px 6px;
+}
+
+.modArticle ul li a{
+	color: #de5e18;
+    text-decoration: underline;
+}
+/* featureImage */
+.featureImage{
+	display:block;
+	min-height:140px;
+	padding-top: 30px;
+    background: #fff;
+}
+
+.featureImage a{
+	min-height:140px;
+	max-height:220px;
+	display:block;
+}
+
+.featureImage a img{
+	width:100%;
+	height:100%;
+}
+
+.featureImage .featureTxt{
+	padding: 5px 30px;
+    line-height: 25px;
+}
+/* guide nav info */
+.guideInfo{
+	background: #fff;
+    width: 100%;
+    height: 44px;
+    position: relative;
+	border-bottom: 1px solid #cccccc;
+}
+.guideInfo.end{
+	border:0;
+}
+.guideInfo.end > p{
+	color: #de5e18;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+    padding: 14px 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+	font-weight:normal;
+}
+.guideInfo .mainType,
+.guideInfo .mainType:active,
+.guideInfo .mainType:focus,
+.guideInfo .mainType:hover{
+	background: #de6818;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 14px;
+    position: relative;
+	font-weight:bold;
+}
+.guideInfo .mainType::after{
+	content:"";
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    top: 16px;
+    right: 0px;
+}
+.guideInfo .subType,
+.guideInfo .subType:active,
+.guideInfo .subType:focus,
+.guideInfo .subType:hover{
+	background: #fff;
+    display: inline-block;
+    color: #000;
+    padding: 12px 6px;
+    position: relative;
+	font-weight:bold;
+}
+/* QABlock */
+.QABlock{
+	min-height:200px;
+}
+.QABlock.mainSearch li a,
+.QABlock.mainSearch li a:hover,
+.QABlock.mainSearch li a:active,
+.QABlock.mainSearch li a:focus{
+	color:#333;
+	text-decoration:none;
+}
+.QABlock .modArticle ul li > span{
+	display: none;
+    padding: 17px;
+    background: #f2f2f2;
+    margin: 10px -34px 10px;
+	width:100%;
+}
+.QABlock .modArticle ul li.open{
+	background: url(../images/panel_arrow_orange.png) no-repeat;
+	background-size: 9px 7px;
+    background-position: 13px 9px;
+	color: #de5e18;
+}
+.QABlock .modArticle ul li.open > span{
+	display: block;
+	color:#333;
+}
+/* QASearchBlock */
+.QASearchBlock{
+	background:#f2f2f2;
+    width: 100%;
+    height: 53px;
+    position: relative;
+	border-bottom: 1px solid #f2f2f2;
+}
+.QASearchBlock .QASearch{
+
+    width: 90%;
+    height: 64%;
+    position: relative;
+	top:18%;
+	left:5%;
+}
+.QASearchBlock .QASearch form{
+	background:#fff;
+    width: 100%;
+    height: 100%;
+}
+.QASearchBlock .QASearch form input{
+	display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+    border: none;
+    background: #fff;
+	min-height: initial;
+}
+.QASearchBlock .QASearch form .ui-input-text,
+.QASearchBlock .QASearch form .ui-body-inherit,
+.QASearchBlock .QASearch form .ui-corner-all,
+.QASearchBlock .QASearch form .ui-shadow-inset{
+	text-shadow: none;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 0;
+    width: 86%;
+	height: 100%;
+}
+.QASearchBlock .QASearch form .searchButton{
+	display: block;
+    width: 6%;
+    height: 80%;
+    float: left;
+    border-left: 1px solid #cec8bb;
+    padding-left: 7px;
+    margin-top: 3px;
+}
+.QASearchBlock .QASearch form .searchButton img{
+	height: 20px;
+    padding-top: 3px;
+}
+/* marketItemImg */
+.modMarketBlock{
+	display:block;
+}
+.modMarketBlock p{
+	line-height: 25px;
+}
+.modMarketBlock .marketItemImg{
+	display:block;
+	padding:10px;
+	height:98px;
+	background:#f2f2f2;
+}
+.marketItemImg .imgLink{
+	display:block;
+	width:44%;
+	height:100%;
+	float:left;
+}
+.marketItemImg .imgLink img{
+	width: 100%;
+    height: 100%;
+}
+.marketItemImg .imgLinkTxt{
+	display: block;
+    margin-left: 2%;
+    width: 54%;
+    margin-top: 29px;
+    font-weight: bold;
+    float: left;
+	line-height:25px;
+}
+.marketItemTxt{
+	display:block;
+	padding: 10px 0px;
+}
+.marketItemTxt .itemTitle{
+	display:inline-block;
+	font-weight:bold;
+	margin-right:10px;
+	line-height:25px;
+}
+.marketItemTxt .itemPrice{
+	display:inline-block;
+	font-weight:bold;
+	color:#dc5505;
+	line-height:25px;
+}
+/* moreButton */
+.moreButton:active,
+.moreButton:focus,
+.moreButton:hover{
+	display: block;
+    text-align: center;
+	background-image: url(../images/moreButton.png);
+	background-size: 100% 100%;
+    padding: 15px;
+    color: #fff !important;
+}
+.moreButton.ui-link, .moreButton.ui-btn, .ui-page-theme-a .moreButton:active, .ui-page-theme-a .moreButton:hover, .ui-page-theme-a .moreButton:focus, .ui-page-theme-a .moreButton.ui-btn.ui-btn-active{
+	display: block;
+    text-align: center;
+    background-image: url(../images/moreButton.png);
+	background-size: 100% 100%;
+    padding: 15px;
+    color: #fff !important;
+	margin-bottom:30px;
+}
+/* stationSale */
+.modStationSale{
+	display:block;
+}
+.modStationSale .stationSaleInfo{
+	display:block;
+	/*
+	width:32%;
+	margin-left:1%;
+	width:30%;
+	margin-left:2.5%;
+	*/
+	width:28%;
+	margin-left:4%;
+	margin-bottom: 20px;
+	float:left;
+}
+.modStationSale .stationSaleInfo .saleInfoImg{
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+}
+.modStationSale .stationSaleInfo .saleInfoImg img{
+	display:block;
+	width:100%;
+}
+.modStationSale .stationSaleInfo .saleInfoTxt,
+.modStationSale .stationSaleInfo .saleInfoTxt:active,
+.modStationSale .stationSaleInfo .saleInfoTxt:focus,
+.modStationSale .stationSaleInfo .saleInfoTxt:hover{
+	display:block;
+	width:100%;
+	height:20px;
+	text-decoration:none;
+	text-align:center;
+	color:#333333;
+	font-weight:bold;
+}
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1; /*For IE 6&7 only*/
+}
+/* modTitle */
+.modTitle{
+	padding-left: 8px;
+    background: #958875;
+    margin: 1em;
+}
+.modTitle h2{
+	display: block;
+    background: #f2f2f2;
+    padding: 8px 18px;
+    color: #de5e18;
+    font-size: 1em;
+}
+/* trafficTimeLine */
+.modArticle.trafficTimeLine{
+	height: 49px;
+    overflow: hidden;
+	margin-bottom: -30px;
+}
+.modArticle.trafficTimeLine:nth-last-of-type(1){
+	margin-bottom: 35px;
+}
+.modArticle.trafficTimeLine.open{
+	height: auto;
+}
+.trafficTimeLine .timeLineTitle{
+	font-weight:bold;
+}
+.trafficTimeLine .articleTitle{
+	position:relative;
+}
+.trafficTimeLine .articleTitle .showButton{
+	display: block;
+    background-image: url(../images/add.png);
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    margin-top: 7px;
+    right: 10px;
+}
+.trafficTimeLine.open .articleTitle .showButton{
+    background-image: url(../images/redcue.png);
+}
+.informationBlock{
+	margin-top: 30px;
+    margin-left: -30px;
+}
+.informationBlock .informationControl{
+	margin-bottom:40px;
+	text-align:center;
+}
+.informationBlock .informationControl a{
+	font-size: 1.2em;
+    background: #958875;
+    text-decoration: none;
+    color: #fff;
+    width: 46%;
+    padding: 7px 0px;
+    display: inline-block;
+}
+.informationBlock .informationControl .timeLineInformation{
+	margin-right:10px;
+}
+.informationBlock .informationControl .trafficInformation{
+	margin-left:10px;
+}
+.informationBlock .timeLineBlock{
+	display:none;
+}
+.informationBlock .timeLineBlock.open{
+	display:block;
+}
+.informationBlock .trafficBlock{
+	display:none;
+}
+.informationBlock .trafficBlock.open{
+	display:block;
+}
+.informationBlock .informationTitle{
+	font-size:1.1em;
+}
+.informationBlock .timeLineBlock > .trafficImg{
+	display: inline-block;
+    width: 100%;
+	max-width:100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.informationBlock .timeLineBlock > table{
+	display: inline-block;
+    width: 100%;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.informationBlock .timeLineBlock > table > tbody{
+	display: inline-block;
+    width: 100%;
+}
+.informationBlock .timeLineBlock > table > tbody > tr{
+	display: inline-block;
+    width: 100%;
+	padding: 10px 0px;
+}
+.informationBlock .timeLineBlock > table > tbody > tr > td:nth-of-type(2n+1){
+	display: block;
+    width:30%;
+	text-align:right;
+	float:left;
+}
+.informationBlock .timeLineBlock > table > tbody > tr > td:nth-of-type(2n){
+	display: block;
+    width:68%;
+	text-align:left;
+	float:left;
+}
+.informationBlock .timeLineBlock > table > tbody > tr:nth-of-type(2n+1){
+	background:#f2f2f2;
+}
+.informationBlock .timeLineBlock > table > tbody > tr:nth-of-type(2n){
+	background:#fff;
+}
+/* trainInformation */
+.modTrainBlock{
+	display:block;
+	margin-bottom:35px;
+}
+.modTrainBlock .trainInformationTitle{
+	font-size: 1.1em;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.modTrainBlock .trainItem{
+	display: block;
+    width: 100%;
+	background:#807d78;
+}
+.modTrainBlock .trainItemTxt{
+	display: block;
+    padding: 1em;
+}
+.modTrainBlock .trainItemTxt .trainWeather{
+	width: 21%;
+    border-right: 1px solid #e8e8e8;
+    margin-right: 3%;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+.modTrainBlock .trainItemTxt .trainWeather img{
+	width: 50%;
+}
+.modTrainBlock .trainItemTxt div{
+	float:left;
+	width:70%;
+	min-height:60px;
+	font-weight: bold;
+}
+.modTrainBlock .trainItem .trainItemImg{
+    display:block;
+	width: 100%;
+}
+.modTrainBlock .trainItem .trainItemImg img{
+    display:block;
+	width: 100%;
+	max-width:100%;
+}
+.modTrainBlock .trainItem .trainItemButton{
+	display:block;
+	padding: 0.5em 0.5em;
+	color:#fff;
+	width:100%;
+}
+.modTrainBlock .trainItem .trainItemButton a{
+	display:block;
+	width:24%;
+	float:left;
+	border-right:1px solid #e8e8e8;
+	text-align:center;
+	font-weight:normal;
+}
+.modTrainBlock .trainItem .trainItemButton a img{
+	max-width: 80%;
+}
+.modTrainBlock .trainItem .trainItemButton a:nth-of-type(4){
+	border:none;
+}
+.modTrainBlock .trainDirect{
+	display: block;
+}
+.modTrainBlock .trainDirect .directTimeTable{
+	width:48%;
+	float:left;
+	text-align:center;
+}
+.modTrainBlock .trainDirect .directTimeTable:nth-of-type(1){
+	margin-right:2%;
+}
+.modTrainBlock .trainDirect .directTimeTable:nth-of-type(2){
+	margin-left:2%;
+}
+.trainDirect .directTimeTable .timeTitle{
+	background:#807d78;
+	color:#fff;
+	width:100%;
+	padding: 5px 0px;
+}
+.trainDirect .directTimeTable .timeSection{
+	width:100%;
+	padding: 5px 0px;
+	background:#fff;
+}
+.trainDirect .directTimeTable .timeSection:nth-of-type(2n+1){
+	background:#f2f2f2;
+}
+.trainDirect .directTimeTable .timeSection > span{
+	display:inline-block;
+}
+.trainDirect .directTimeTable .timeSection > span:nth-of-type(1){
+	color:#dd612a;
+}
+.trainDirect .directTimeTable .timeSection > span:nth-of-type(1):after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #807d78;
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 7px;
+}
+.trainDirect .directTimeTable .timeSection > span:nth-of-type(2){
+	color:#333;
+}
+.modTrainBlock .trainService{
+	display: block;
+	width:100%;
+}
+.modTrainBlock .trainService .serviceItem{
+	display:block;
+	float:left;
+	width:23%;
+	margin-right:2.6%;
+	margin-bottom: 15px;
+	text-align:center;
+}
+.modTrainBlock .trainService .serviceItem:nth-of-type(4n+1){
+	margin-right: 0;
+}
+.modTrainBlock .trainService .serviceItem img{
+	width: 80%;
+	max-width: 80%;
+}
+.modTrainBlock .trainService .serviceItem span{
+	display: inline-block;
+	height: 40px;
+}
+.modTrainBlock .trainPlanFloor{
+	display: block;
+    width: 100%;
+}
+.modTrainBlock .trainPlanFloor .planFloorButton{
+	display: block;
+    width: 100%;
+	position:relative;
+}
+.modTrainBlock .trainPlanFloor .planFloorButton img{
+	display: block;
+    width: 100%;
+}
+.modTrainBlock .trainPlanFloor .planFloorButton ul{
+	display: block;
+    width: 100%;
+	list-style-type: none;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+    height: 100%;
+    top: 0px;
+}
+.modTrainBlock .trainPlanFloor .planFloorButton ul li{
+	display: block;
+    width: 25%;
+	height:100%;
+	float:left;
+	/*text-indent:-9999px;*/
+}
+.modTrainBlock .trainPlanFloor .planFloorImg{
+	display: none;
+    width: 100%;
+	margin: 15px 0px;
+}
+.modTrainBlock .trainPlanFloor .planFloorImg.current{
+	display: block;
+}
+.modTrainBlock .trainPlanFloor .planFloorImg img{
+	display: block;
+    width: 100%;
+}
+
+.modTrainBlock.planFloor .trainService.current{
+	display:block;
+}
+/* newsSearchBlock */
+.newsSearchBlock{
+	background:#f2f2f2;
+    width: 100%;
+    height: 53px;
+}
+.newsSearchBlock .newsSearch{
+    width: 90%;
+    height: 64%;
+    position: relative;
+	top:18%;
+	left:5%;
+}
+.newsSearchBlock .newsSearch form{
+    width: 100%;
+    height: 100%;
+}
+.newsSearchResult{
+	width:100%;
+	min-height:350px;
+}
+.newsSearchResult .moreButton{
+	margin: 1em;
+}
+.newsSearchResult .newsItem{
+	padding:1em;
+	height:55px;
+}
+.newsSearchResult .newsItem:nth-of-type(2n){
+	background:#f0f0f0;
+}
+.newsSearchResult .newsItem .newsItemDate{
+	display: block;
+    width: 100%;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+.newsSearchResult .newsItem .newsItemContent,
+.newsSearchResult .newsItem .newsItemContent:active,
+.newsSearchResult .newsItem .newsItemContent:focus,
+.newsSearchResult .newsItem .newsItemContent:hover{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+	text-decoration:none;
+	color:#333;
+}
+.newsSearch form .yearItem{
+	width:22%;
+	display:block;
+	float:left;
+	margin-right: 6%;
+}
+.newsSearch form .catagoryItem{
+	width:31%;
+	display:block;
+	float:left;
+	margin-right: 6%;
+}
+.newsSearch form .keywordItem{
+	width:35%;
+	display:block;
+	float:left;
+	position:relative;
+}
+.newsSearch form .keywordItem.bid{
+	width:72%;
+}
+.newsSearch form .yearItem .ui-select,
+.newsSearch form .catagoryItem .ui-select,
+.newsSearch form .keywordItem .ui-select{
+	position:initial;
+	margin:0;
+}
+.newsSearchBlock .newsSearch form input{
+	display: block;
+    width: 100%;
+    float: left;
+    border: none;
+    background: #fff;
+	min-height: initial;
+}
+
+.newsSearchBlock .newsSearch form .searchButton{
+	display: block;
+    width: 6%;
+    height: 80%;
+	position: absolute;
+	top:5px;
+    left: 75%;
+}
+.newsSearchBlock .newsSearch form .searchButton img{
+	height: 20px;
+    padding-top: 3px;
+}
+.newsSearch .ui-select .ui-btn {
+    margin: 0;
+    opacity: 1;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+	box-shadow: none;
+}
+.newsSearch .ui-select .ui-btn > span:nth-of-type(1){
+	display:none;
+}
+.newsSearch .ui-btn-icon-notext:after,.newsSearch .ui-btn-icon-left:after,.newsSearch .ui-btn-icon-right:after{
+	display:none;
+}
+.newsSearch .ui-select .ui-btn select{
+	/* -webkit-appearance: menulist; */
+    /* -moz-appearance: menulist; */
+	position: initial;
+    opacity: 1;
+	height: 100%;
+    border: 0;
+    border-radius: 0;
+	padding: 0.4em;
+	color: #999;
+}
+.ui-body-a, .ui-page-theme-a .newsSearch .ui-body-inherit,
+html .ui-bar-a .newsSearch .ui-body-inherit,
+html .ui-body-a .newsSearch .ui-body-inherit,
+html body .ui-group-theme-a .newsSearch .ui-body-inherit,
+html .newsSearch .ui-panel-page-container-a{
+	margin:0;
+	border: 0;
+	border-radius: 0;
+}
+.newsContent{
+	min-height:350px;
+}
+.newsContent .newsContentTitle{
+	display:block;
+	background-image: url(../images/newsTitle.png);
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+	padding:1em;
+}
+.newsContent .newsContentTitle .titleMain{
+	display: inline-block;
+    width: 100%;
+	font-weight: bold;
+    font-size: 1.2em;
+}
+
+.newsContent .newsContentTitle .titleSub{
+	display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 0.9em;
+}
+.newsContentTitle .titleSub .subCatagory{
+	border-right: 1px solid;
+    padding-right: 10px;
+}
+.newsContentTitle .titleSub .subDate{
+    padding-left: 10px;
+}
+
+.newsContent .newsContentDetail{
+	display:block;
+	padding:1em;
+	background-image: url(../images/newsTitle.png);
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+.relateBar .relateBlock{
+	display:none;
+	padding:1em;
+	min-height:155px;
+}
+.relateBar .relateBlock .adsKV{
+	height:155px;
+	overflow:hidden;
+}
+.relateBar .relateBlock .adsKV a{
+	display:block;
+	height:155px;
+	float:left;
+	margin-right: 10px;
+}
+.relateBar .relateBlock .adsKV a img{
+	height:100%;
+}
+.relateBar .relateBlock.current{
+	display:block;
+}
+.modArticle.relateBlock ul{
+	padding:0;
+}
+.modArticle.relateBlock ul li{
+	line-height:30px;
+}
+.modArticle.relateBlock .documentDownload a,
+.modArticle.relateBlock .documentDownload a:active,
+.modArticle.relateBlock .documentDownload a:hover,
+.modArticle.relateBlock .documentDownload a:focus{
+	text-decoration:none;
+	color:#333;
+}
+.turnPageBlock{
+	padding: 10px 9%;
+    background-color: #df6805;
+    color: #fff;
+    font-size: 1.3em;
+}
+.turnPageBlock a:active,
+.turnPageBlock a:hover,
+.turnPageBlock a:focus{
+    color: #fff;
+}
+.turnPageBlock .turnPre{
+	display: inline-block;
+    width: 40%;
+    text-align: right;
+	padding-right: 9%;
+	position:relative;
+}
+.turnPageBlock .turnPre:after {
+    content: "";
+    width: 1px;
+    height: 95%;
+    background: #fe963f;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: 104%;
+}
+.turnPageBlock .turnPre img{
+	max-height: 22px;
+    padding-right: 20px;
+    position: relative;
+    top: 3px;
+}
+.turnPageBlock .turnNext{
+	display: inline-block;
+    width: 40%;
+    text-align: left;
+	padding-left: 9%;
+	position:relative;
+}
+.turnPageBlock .turnNext img{
+	max-height: 22px;
+    padding-left: 20px;
+    position: relative;
+    top: 3px;
+}
+.downloadTitle{
+	font-size: 1.2em;
+    color: #db5106;
+    font-weight: bold;
+    display: block;
+}
+.downloadTitle img{
+	height: 25px;
+    padding: 0px 15px;
+    position: relative;
+    top: 5px;
+}
+.modArticle .downloadLink li a,
+.modArticle .downloadLink li a:hover,
+.modArticle .downloadLink li a:active,
+.modArticle .downloadLink li a:focus{
+	text-decoration:none;
+	color:#333;
+}
+/* modItemSaleList */
+.modItemSaleList{
+	display:block;
+	min-height:350px;
+}
+.modItemSaleList.listContent{
+	padding:1em;
+}
+.modItemSaleList .itemSale{
+	display: block;
+    height: 85px;
+    padding: 10px 15px;
+	background:#fff;
+}
+.modItemSaleList.listContent .itemSale{
+	height:auto;
+}
+.modItemSaleList.listContent .itemSaleInformation{
+	display:block;
+	padding: 1em 0;
+	line-height:25px;
+}
+.modItemSaleList.listContent .itemSaleInformation ul{
+	list-style-type: none;
+	position:relative;
+	padding: 0;
+    margin: 0;
+}
+.modItemSaleList.listContent .itemSaleInformation ul li{
+	padding-left: 20px;
+}
+.modItemSaleList.listContent .itemSaleInformation ul li:before{
+	content:"※";
+	position: absolute;
+    left: 0px;
+}
+.modItemSaleList.listContent .itemSaleSite{
+	display:block;
+	background:#f2f2f2;
+}
+.modItemSaleList.listContent .itemSaleSite table{
+	width:100%;
+	text-align:left;
+	padding: 5px 5px 10px 5px;
+}
+.modItemSaleList.listContent .itemSaleSite table a.ui-link,
+.modItemSaleList.listContent .itemSaleSite table a.ui-btn,
+.modItemSaleList.listContent .itemSaleSite table .ui-page-theme-a a:active,
+.modItemSaleList.listContent .itemSaleSite table .ui-page-theme-a .ui-btn:active,
+.modItemSaleList.listContent .itemSaleSite table .ui-page-theme-a .ui-btn.ui-btn-active{
+	font-weight:normal;
+}
+.modItemSaleList.listContent .itemSaleSite table img{
+	height: 30px;
+    position: relative;
+    top: 10px;
+    padding-right: 5px;
+}
+.modItemSaleList.listContent .itemSale{
+	background:#f2f2f2;
+}
+.modItemSaleList .moreButton{
+	margin:1em;
+}
+.modItemSaleList .itemSale:nth-of-type(2n) {
+    background: #f2f2f2;
+}
+.modItemSaleList .itemSale .itemSaleImg{
+	display: block;
+    width:40%;
+	height:100%;
+	text-align:center;
+	float:left;
+}
+.modItemSaleList .itemSale .itemSaleImg{
+	display: block;
+    width:40%;
+	height:100%;
+	text-align:center;
+	float:left;
+}
+.modItemSaleList.listContent .itemSale .itemSaleImg{
+	display: block;
+    width:100%;
+	height:auto;
+	float:initial;
+}
+.modItemSaleList .itemSale .itemSaleImg img{
+	height:100%;
+	max-width: 100%;
+}
+.modItemSaleList.listContent .itemSale .itemSaleImg img{
+	width:100%;
+	height:auto;
+}
+.modItemSaleList .itemSale .itemSaleDetail{
+	display: block;
+    width:58%;
+	margin-left:2%;
+	height:100%;
+	float:left;
+}
+.modItemSaleList.listContent .itemSale .itemSaleDetail{
+    width:100%;
+	height:auto;
+	margin-left:0;
+	float:initial;
+}
+.itemSale .itemSaleDetail .saleDetailTitle{
+	display: block;
+    font-weight: bold;
+    height: 40px;
+    color: #333;
+}
+.modItemSaleList.listContent .itemSale .itemSaleDetail .saleDetailTitle{
+	width:100%;
+}
+.itemSale .itemSaleDetail .saleDetailPrice{
+	display: block;
+    font-size: 0.9em;
+    height: 18px;
+    color:#db5106;
+	margin-top:5px;
+	font-weight:bold;
+}
+.modItemSaleList.listContent .itemSale .itemSaleDetail .saleDetailPrice{
+	width:100%;
+}
+.itemSale .itemSaleDetail .saleDetailPrice:before{
+	content:"NT$";
+	margin-right: 5px;
+}
+.itemSale .itemSaleDetail .saleDetailStatus{
+	display: block;
+    height: 22px;
+    text-align: right;
+    font-size: 0.9em;
+}
+.modItemSaleList.listContent .itemSale .itemSaleDetail .saleDetailStatus{
+	width:100%;
+	margin-top: -20px;
+}
+.itemSaleDetail .saleDetailStatus .statusTag{
+	border: 1px solid;
+    padding: 1px 10px;
+    display: inline-block;
+	background-color:#fff;
+}
+.saleDetailStatus .statusTag.new{
+	color: #e9a089;
+}
+.saleDetailStatus .statusTag.soldout{
+	color: #a8a8a8;
+}
+.modArticle.relateItemBlock{
+	padding:1em;
+}
+.relateItemBlock .relateItemGroup{
+	width:100%;
+}
+.relateItemBlock .relateItemGroup .relateItem{
+	width: 43%;
+    padding: 3%;
+    min-height: 150px;
+    background-color: #f2f2f2;
+    float: left;
+}
+.relateItemBlock .relateItemGroup .relateItem:nth-of-type(1){
+	margin-right:1%;
+}
+.relateItemBlock .relateItemGroup .relateItem:nth-of-type(2){
+	margin-left:1%;
+}
+.relateItem .relateItemImg{
+	display:block;
+	width:100%;
+	text-align:center;
+}
+.relateItem .relateItemImg img{
+	max-width:100%;
+	height:75px;
+}
+.relateItem .relateItemDetail{
+	display:block;
+	width:100%;
+	text-align:left;
+}
+.relateItem .relateItemDetail .itemDetailTitle{
+	display:block;
+	width:100%;
+}
+.relateItem .relateItemDetail .itemDetailPrice{
+	display:block;
+	width:100%;
+	color:#db5106;
+	margin-top:5px;
+	font-weight:bold;
+}
+.relateItem .relateItemDetail .itemDetailPrice:before{
+	content:"NT$";
+	margin-right: 5px;
+}
+.carriageControl{
+	background: url(../images/interchange_bg.jpg) repeat-x;
+    background-size: 10px 44px;
+    height: 44px;
+    overflow: auto;
+    width: 100%;
+    position: relative;
+    font-size: 0px;
+}
+.carriageControl ul{
+	padding: 0px;
+    margin: 0px;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 0px;
+}
+.carriageControl ul li{
+	font-size: 14px;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+.carriageControl ul li a{
+	display: block;
+    padding: 12px 0px;
+    color: #de5e18;
+    width: 100%;
+    position: relative;
+	font-size: 1.1em;
+}
+.carriageControl ul li a:after{
+	content:"號車";
+	font-size: 0.8em;
+}
+.carriageControl ul li.businessCarriage{
+	background:#cf0156;
+}
+.carriageControl ul li.businessCarriage a{
+	color:#fff;
+}
+.carriageControl ul li.standardCarriage{
+	/* background:#fff; */
+}
+.carriageControl ul li.standardCarriageFree{
+	background:#767676;
+}
+.carriageControl ul li.standardCarriageFree a{
+	color:#fff;
+}
+.carriageControl ul li.barrierfreeCarriage{
+	background:#d14800;
+}
+.carriageControl ul li.barrierfreeCarriage a{
+	color:#fff;
+}
+.modCarriage{
+	display: block;
+    min-height: 640px;
+    margin-bottom: 20px;
+}
+.modCarriage .carriageType{
+	display:block;
+	min-height:75px;
+	width:100%;
+}
+.modCarriage .carriageType table{
+	margin-left:auto;
+	margin-right:auto;
+}
+.modCarriage .carriageType table td{
+	position: relative;
+	left:20px;
+	padding-left: 5px;
+	padding-right: 30px;
+	line-height: 25px;
+}
+.modCarriage .carriageType table td:before{
+	content: "";
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c4c4c4;
+    display: block;
+    position: absolute;
+	top:5px;
+    left: -20px;
+}
+.modCarriage .carriageType table tr:nth-of-type(1) td:nth-of-type(1):before{
+	background:#fff;
+}
+.modCarriage .carriageType table tr:nth-of-type(1) td:nth-of-type(2):before{
+	background:#cf0156;
+}
+.modCarriage .carriageType table tr:nth-of-type(2) td:nth-of-type(1):before{
+	background:#767676;
+}
+.modCarriage .carriageType table tr:nth-of-type(2) td:nth-of-type(2):before{
+	background:#d14800;
+}
+.modCarriage .carriageView{
+	display:block;
+	min-height:100px;
+	width:100%;
+}
+.modCarriage .carriageView .carriageViewDirection{
+	display: block;
+    width: 100%;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 5px 0px;
+}
+.modCarriage .carriageView .carriageViewImage{
+	display:block;
+	min-height:500px;
+	width:100%;
+}
+.modCarriage .carriageView .carriageViewImage img{
+	width:100%;
+}
+.padding1em{
+	padding:1em;
+}
+@media screen and (max-width: 321px){
+	.modTrainBlock .trainItemTxt .trainWeather{
+		width: 25%;
+		margin-right: 2%;
+		padding-left: 0px;
+	}
+	.modTrainBlock .trainItemTxt .trainWeather img {
+		padding-left: 10px;
+	}
+	.modTrainBlock .trainItemTxt {
+		padding: 0.8em;
+	}
+	.newsSearch form .yearItem{
+		width:24%;
+		margin-right:3%;
+	}
+	.newsSearch form .catagoryItem{
+		width:35%;
+		margin-right:3%;
+	}
+}
+
+/* 2016.12.05 Martin */
+	/* 最新消息頁_查詢框_手機版樣式調整 */
+.newsSearch .ui-select .ui-btn select {
+    height: 33px;
+    line-height: 33px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.newsSearch form .keywordItem {
+    height: 33px;
+    overflow: hidden;
+}
+.newsSearchBlock .newsSearch form input {
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 33px;
+}
+	/* 最新消息頁_查詢框_手機版樣式調整 End */
+
+	/* 最新消息頁_內頁_下一則/上一則按鈕_位置調整 End */
+.turnPageBlock .turnPre {
+    padding-right: 30px;
+    width: auto;
+}
+.turnPageBlock .turnNext {
+    padding-left: 25px;
+    width: auto;
+}
+.turnPageBlock {
+    text-align: center;
+}
+.turnPageBlock .turnPre:after {
+    left: 100%;
+}
+	/* 最新消息頁_下一則/上一則按鈕_位置調整 End */
+
+	/* 車站資訊頁_地址資訊欄_位置調整 */
+@media screen and (max-width: 321px) {
+	.modTrainBlock .trainItemTxt div {
+	    width: 77%;
+	}
+}
+@media screen and (max-width: 321px) {
+	.modTrainBlock .trainItemTxt .trainWeather {
+	    width: 18%;
+	}
+}
+.modTrainBlock .trainItemTxt {
+    padding-left: 0;
+    padding-right: 0;
+}
+	/* 車站資訊頁_地址資訊欄_位置調整 End */
+
+	/* 車站資訊頁_表定最近車次欄位_字體調整 */
+.trainDirect .directTimeTable .timeSection {
+	font-family: "arial", "Microsoft JhengHei", monospace;
+}
+	/* 車站資訊頁_表定最近車次欄位_字體調整 End */
+
+	/* 車站資訊頁_交通資訊頁_路線資訊欄位_欄位調整 */
+.modArticle.trafficTimeLine {
+	height: 47px;
+}
+.informationBlock .trafficBlock table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.trafficBlock table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.trafficBlock table td {
+    padding: 0;
+    margin: 0;
+}
+.trafficBlock table td:nth-child(1) {
+    width: 40%;
+    position: relative;
+    padding: 5px 10px;
+}
+.trafficBlock table td:nth-child(1)::after {
+    content: "";
+    width: 1px;
+    height: 80%;
+    background-color: #e6e6e6;
+    box-shadow: 1px 0 1px #fff;
+    right: 0;
+    top: 10%;
+    position: absolute;
+}
+.trafficBlock table td:nth-child(2) {
+    width: 60%;
+    padding: 5px 10px;
+}
+	/* 車站資訊頁_交通資訊頁_路線資訊欄位_欄位調整 End */
+
+	/* 常見問題頁_搜尋結果頁_文字顏色/間距調整 */
+.guideInfo.end > p {
+    color: #333;
+	border: none;
+	padding-top: 20px;
+}
+.guideInfo.end > p strong {
+    color: #de5e18;
+}
+.QABlock .modArticle ul li {
+    margin-bottom: 15px;
+}
+	/* 常見問題頁_搜尋結果頁_文字顏色/間距調整 End */
+
+	/* 全站_h2文字調整 */
+.modArticle .articleTitle .articleTitleContent {
+	font-size: 1.1em;
+    padding: 5px 18px;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+}
+	/* 全站_h2文字調整 End */
+
+	/* 車站資訊_mouseover 顏色調整 */
+.modTrainBlock .trainItem .trainItemButton a:hover {
+    color: #db5106;
+}
+	/* 車站資訊_mouseover 顏色調整 End */
+
+	/* 最新消息_內文_標題與分類時間間距調整 */
+.newsContent .newsContentTitle .titleSub {
+    margin-top: 13px;
+}
+	/* 最新消息_內文_標題與分類時間間距調整 End */
+
+	/* 最新消息_列表_上下空白處等高 */
+.newsSearchResult .newsItem {
+    height: auto;
+}
+	/* 最新消息_列表_上下空白處等高 End */
+
+	/* 最新消息_內文_當內容文字太少時會有過多空白區塊 */
+.newsContent {
+	min-height: 0;
+}
+	/* 最新消息_內文_當內容文字太少時會有過多空白區塊 End */
+
+	/* 車站資訊_購物服務_拿掉背景灰底 */
+.stationSaleBG {
+	background: none;
+}
+	/* 車站資訊_購物服務_拿掉背景灰底 End */
+
+	/* 車站資訊_選單_配合 javascript 來做「當前頁面」的選單定位 */
+.interChangeNav ul {
+    overflow-x: scroll;
+}
+	/* 車站資訊_選單_配合 javascript 來做「當前頁面」的選單定位 End */
+
+	/* 車箱資訊_選單_配合 javascript 來做「當前頁面」的選單定位 */
+.carriageControl ul {
+	overflow-x: scroll;
+}
+	/* 車箱資訊_選單_配合 javascript 來做「當前頁面」的選單定位 End */
+
+	/* LightBox */
+.m_lightBoxDiv {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+.m_lightBox {
+	width: 100%;
+	height: 250px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	position: fixed;
+}
+.m_lightBox_arrowLeft, .m_lightBox_arrowRight {
+	width: 20px;
+	height: 100%;
+	position: absolute;
+	z-index: 2000;
+}
+.m_lightBox_arrowLeft {
+	left: 10px;
+	background: url("../images/lightBox_arrowLeft.png") no-repeat;
+	background-position: 100% 50%;
+	background-size: 100% auto;
+}
+.m_lightBox_arrowRight {
+	right: 10px;
+	background: url("../images/lightBox_arrowRight.png") no-repeat;
+	background-position: 100% 50%;
+	background-size: 100% auto;
+}
+.m_lightBox_close {
+	width: 20px;
+	height: 20px;
+	background: url("../images/lightBox_close.png") no-repeat;
+	background-size: cover;
+	right: 10px;
+	top: -30px;
+	position: absolute;
+	z-index: 2000;
+}
+.m_lightBox_image {
+	max-width: 100%;
+	height: 100%;
+	max-height: 250px;
+	position: relative;
+}
+.m_lightBox_image img {
+	max-width: 100%;
+	max-height: 250px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+	/* LightBox End */
+/* 2016.12.05 Martin End */
+
+/* 2016.12.13 Martin */
+	/* 車站資訊_天氣圖置中 */
+.modTrainBlock .trainItemTxt .trainWeather {
+	padding-left: 0;
+	text-align: center;
+}
+	/* 車站資訊_天氣圖置中 End */
+/* 2016.12.13 Martin End */
+
+/* 2016.12.20 Martin */
+	/* 車廂介紹_服務設施排版調整 */
+.modTrainBlock .trainService .serviceItem {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.modTrainBlock .trainService .serviceItem:nth-of-type(4n+1) {
+    margin-right: 1%;
+}
+	/* 車廂介紹_服務設施排版調整 End */
+
+	/* 車站資訊_車站平面圖_服務設施排版調整 */
+.modTrainBlock .trainService .serviceItem span{
+	display: block;
+}
+	/* 車站資訊_車站平面圖_服務設施排版調整 End */
+
+	/* 最新消息/重大訊息/招標資訊_下拉箭頭 */
+.newsSearch form .yearItem {
+	position: relative;
+}
+.newsSearch form .yearItem::after {
+	content: "";
+	width: 10px;
+	height: 100%;
+	background: url(../images/icon_arrowDown_grey.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	right: 6px;
+	top: 0px;
+	position: absolute;
+}
+.newsSearch form .catagoryItem {
+	position: relative;
+}
+.newsSearch form .catagoryItem::after {
+	content: "";
+	width: 10px;
+	height: 100%;
+	background: url(../images/icon_arrowDown_grey.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	right: 6px;
+	top: 0px;
+	position: absolute;
+}
+	/* 最新消息/重大訊息/招標資訊_下拉箭頭 End */
+
+	/* 最新消息/重大訊息/招標資訊_搜尋圖示定位 */
+.newsSearchBlock .newsSearch form .searchButton {
+    width: auto;
+    right: 5px;
+	left: initial;
+}
+	/* 最新消息/重大訊息/招標資訊_搜尋圖示定位 End */
+
+	/* 列車販售_商品圖片比例調整 */
+.modItemSaleList .itemSale .itemSaleImg img {
+	width: 100%;
+	max-height: 100%;
+}
+	/* 列車販售_商品圖片比例調整 End */
+
+	/* 全站_第一層選單字級調整 */
+.interChangeNav li {
+	font-size: 16px;
+}
+	/* 全站_第一層選單字級調整 End */
+
+	/* 常見問題_搜尋圖示定位 */
+.QASearchBlock .QASearch form .searchButton {
+    width: auto;
+    float: right;
+    padding-right: 7px;
+}
+	/* 常見問題_搜尋圖示定位 End */
+
+	/* 線上申請團體訂位_必填欄位提示文字排版 */
+#ErrorMessage {
+    padding: 0 22px;
+}
+.m_bgColor #ErrorMessage {
+    padding: 0 10px;
+}
+	/* 線上申請團體訂位_必填欄位提示文字排版 End */
+
+	/* 時刻表與票價查詢_「時刻表下載」文字排版 */
+.ui-page>.ui-panel-wrapper>.ui-content>.m_postInfo {
+    padding-bottom: 10px;
+}
+.ui-page>.ui-panel-wrapper>.ui-content>.m_postInfo>span {
+    font-size: 1em;
+}
+	/* 時刻表與票價查詢_「時刻表下載」文字排版 End */
+/* 2016.12.20 Martin End */
+
+/* 2017.01.11 Martin */
+	/* 全站_連結active顏色修改 */
+.newsSearchResult .newsItem .newsItemContent:hover,
+.newsSearchResult .newsItem .newsItemContent:focus,
+.newsSearchResult .newsItem .newsItemContent:active {
+	color: #e27032;
+}
+.modArticle.relateBlock .documentDownload a:hover,
+.modArticle.relateBlock .documentDownload a:focus,
+.modArticle.relateBlock .documentDownload a:active {
+	color: #e27032;
+}
+.modArticle .downloadLink li a:hover,
+.modArticle .downloadLink li a:focus,
+.modArticle .downloadLink li a:active {
+	color: #e27032;
+}
+.QABlock.mainSearch li a:hover,
+.QABlock.mainSearch li a:focus,
+.QABlock.mainSearch li a:active {
+	color: #e27032;
+}
+.ui-page-theme-a a:hover,
+.ui-page-theme-a a:focus,
+.ui-page-theme-a a:active {
+	color: #e27032;
+}
+.turnPageBlock .turnNext:hover,
+.turnPageBlock .turnNext:focus,
+.turnPageBlock .turnNext:active,
+.turnPageBlock .turnPre:hover,
+.turnPageBlock .turnPre:focus,
+.turnPageBlock .turnPre:active {
+	color: #fff;
+}
+	/* 全站_連結active顏色修改 End */
+
+	/* 全站_「瀏覽更多」按鈕修改 */
+.newsSearchResult .moreButton,
+.moreButton.ui-link {
+	background: linear-gradient(180deg, #de6f04, #c74c06);
+	border-radius: 5px;
+}
+.newsSearchResult .moreButton:hover,
+.newsSearchResult .moreButton:active,
+.moreButton.ui-link:hover,
+.moreButton.ui-link:active {
+	background: linear-gradient(0deg, #de6f04, #c74c06);
+	margin-bottom: 1em;
+	border-radius: 5px;
+}
+.informationBlock .informationControl .timeLineInformation:hover,
+.informationBlock .informationControl .timeLineInformation:focus,
+.informationBlock .informationControl .timeLineInformation:active {
+	color: #fff;
+}
+.informationBlock .informationControl .trafficInformation:hover,
+.informationBlock .informationControl .trafficInformation:focus,
+.informationBlock .informationControl .trafficInformation:active {
+	color: #fff;
+}
+	/* 全站_「瀏覽更多」按鈕修正 End */
+
+	/* 車站資訊_車站平面圖_增加放大鏡圖示 */
+.modTrainBlock .trainPlanFloor .planFloorImg {
+	position: relative;
+}
+.modTrainBlock .trainPlanFloor .planFloorImg img.m_planFloorImgMagnifier {
+	width: auto;
+	height: 20px;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+	/* 車站資訊_車站平面圖_增加放大鏡圖示 End */
+/* 2017.01.11 Martin End */
+
+/* 2017.01.23 Martin */
+	/* 全站_footer_字體大小調整 */
+.footerContact .timeRange {
+	font-size: 0.9em;
+}
+	/* 全站_footer_字體大小調整 End */
+
+	/* 全站_footer_「電腦版」按鈕排版調整 */
+a.pcLink, a.pcLink:hover {
+	padding-bottom: 0;
+}
+	/* 全站_footer_「電腦版」按鈕排版調整 End */
+
+	/* 紀念商品頁_列表_「新上市」按鈕顏色調整 */
+.saleDetailStatus .statusTag.new {
+	color: #de5f1a;
+}
+	/* 紀念商品頁_列表_「新上市」按鈕顏色調整 End */
+
+	/* 時刻表查詢_「立即查詢按鈕」顏色調整 */
+.ui-page-theme-a .sendTimeCheck:focus,
+.ui-page-theme-a .sendTimeCheck:active,
+.ui-page-theme-a .sendTimeCheck:hover {
+    color: #fff;
+}
+	/* 時刻表查詢_「立即查詢按鈕」顏色調整 End */
+
+	/* 時刻表查詢_日期字體大小調整 */
+.timeCheck #theDay {
+    font-size: .78125em;
+    padding-top: .728125em;
+    padding-bottom: .728125em;
+}
+	/* 時刻表查詢_日期字體大小調整 End */
+
+	/* 紀念商品_同系列商品_圖片比例調整 */
+.relateItemBlock .relateItemGroup .relateItem {
+    min-height: 165px;
+}
+.relateItem .relateItemImg img {
+    height: auto;
+}
+	/* 紀念商品_同系列商品_圖片比例調整 End */
+
+	/* 列車販售_商品列表_圖片比例調整 */
+.modItemSaleList .itemSale {
+    height: 95px;
+}
+.modItemSaleList .itemSale .itemSaleImg img {
+    width: auto;
+}
+	/* 列車販售_商品列表_圖片比例調整 End */
+
+	/* 車廂介紹_車廂種類的說明文字_字級與圖示縮小 */
+.modCarriage .carriageType table td {
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.modCarriage .carriageType table td:before {
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    left: -15px;
+}
+	/* 車廂介紹_車廂種類的說明文字_字級與圖示縮小 End */
+
+	/* 車廂介紹_icon跑版 */
+.modTrainBlock .trainService .serviceItem p {
+    min-height: 40px;
+}
+	/* 車廂介紹_icon跑版 End */
+/* 2017.01.23 Martin End */
+
+/* 2017.01.25 Martin*/
+	/* 「class="modArticle"」選單錨點調整 */
+.m_modArticle {
+	margin-bottom: 35px;
+	display: block;
+}
+.m_modArticle.formMethod {
+	overflow: auto;
+}
+.articleArea .articleSection .m_modArticle {
+    padding: 1em;
+}
+	/* 「class="modArticle"」選單錨點調整 End */
+/* 2017.01.25 Martin End */
+base.css
+登入
+目前顯示的是「base.css」。

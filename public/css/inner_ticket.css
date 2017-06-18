@@ -1,0 +1,278 @@
+@charset "utf-8";
+.ticket_title {
+	clear: both;
+}
+
+.ticket_title h2 {
+	font-size: 24px;
+	color: #db5106;
+	height: 51px;
+	padding-left: 5px;
+	line-height: 39px;
+}
+
+.banner {
+	clear: both;
+	background-color: #e0dcd4;
+	height: 285px;
+	margin-bottom: 6px;
+}
+
+.banner_left {
+	width: 265px;
+	float: left;
+	height: 285px;
+	position: relative;
+	z-index: 3;
+}
+.banner_left_shadow {
+	background-image: url(/Content/images_cn/ticket_common/ticket_shadow.png);
+	height: 285px;
+	width: 9px;
+	position: absolute;
+	top: 0px;
+	right: -5px;
+	display: block;
+	background-repeat: repeat-y;
+}
+
+.banner_right {
+	height: 285px;
+	float: left;
+	width: 708px;
+	background-image: url(/Content/images_cn/common/banner_rightBg.jpg);
+	background-position: 0px 302px;
+	position: relative;
+}
+/*.banner_right ul {
+	height: 49px;
+	width: 681px;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.banner_kvBtn_left {
+	display: block;
+	height: 51px;
+	width: 13px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	text-indent: -9999px;
+}
+.banner_kvBtn_right {
+	height: 51px;
+	width: 13px;
+	display: block;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	text-indent: -9999px;
+}
+.banner_right ul li {
+	height: 49px;
+	width: 227px;
+	position: absolute;
+	top: 500px;
+	text-align: center;
+}
+
+.banner_right li a {
+	font-size: 11px;
+	color: #696969;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+*/
+/*
+.train_status {
+	height: 66px;
+	position: relative;
+}
+.train_status h2 {
+	position: absolute;
+	left: 131px;
+	top: 35px;
+	font-size: 11px;
+	color: #FFF;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	display: none;
+}
+.train_status .stopNow {
+	display: block;
+}*/
+.train_check {
+	background-image: url(/Content/images_cn/common/timeCheck.jpg);
+	height: 285px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.train_check h2 {
+	height: 82px;
+	text-indent: -9999px;
+}
+.train_check fieldset {
+	padding-left: 18px;
+	margin-bottom: 11px;
+}
+
+#train_start ,#train_finish{
+	width: 158px;
+}
+#train_data {
+	width: 135px;
+	padding-left: 3px;
+}
+.check_now {
+	background-image: url(/Content/images_cn/common/checkRightNow.jpg);
+	text-indent: -9999px;
+	display: block;
+	height: 26px;
+	width: 124px;
+	position: absolute;
+	left: 70px;
+	bottom: 28px;
+}
+
+
+.moreSpace {
+	margin-right: 9px;
+}
+.ticket_order {
+	background-image: url(/Content/images_cn/ticket_common/ticket_order.jpg);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 967px;
+}
+.oder_24_ticket {
+	display: block;
+	height: 70px;
+	width: 268px;
+	text-indent: -9999px;
+	float: left;
+}
+.ticket_order ul {
+	float: left;
+	width: 680px;
+	padding-top: 10px;
+	padding-left: 19px;
+}
+.ticket_order ul li {
+	color: #76736d;
+	line-height: 1.4em;
+}
+.ticket_area_info  {
+	height: 223px;
+	margin-bottom: 28px;
+	padding-top: 26px;
+	background-image: url(/Content/images_cn/ticket_common/ticket_info_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+}
+.ticket_area_left {
+	float: left;
+	width: 312px;
+	margin-right: 17px;
+}
+.ticket_area_middle {
+	float: left;
+	width: 334px;
+	margin-right: 17px;
+}
+.ticket_area_right {
+	float: left;
+	width: 282px;
+}
+.ticket_area_info h2 {
+	height: 22px;
+	background-image: url(/Content/images_cn/ticket_common/ticketKind.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-color: #FFF;
+	margin-bottom: 29px;
+}
+.ticket_area_middle h2 {
+	background-position: 0px -23px;
+}
+.ticket_area_right h2 {
+	background-position: 0px -46px;
+}
+
+.ticket_area_info p {
+	color: #76736d;
+	line-height: 1.3em;
+	width: 278px;
+	padding-left: 12px;
+}
+.ticket_area_left p {
+	margin-bottom: 33px;
+}
+.ticket_area_middle p {
+	margin-bottom: 10px;
+}
+
+.ticket_area_right p {
+	width: 265px;
+	margin-bottom: 50px;
+}
+.ticket_area_info ul li {
+	float: left;
+	height: 50px;
+	width: 74px;
+	text-align: center;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+.ticket_area_info ul li a {
+	display: block;
+	height: 50px;
+	width: 74px;
+	background-image: url(/Content/images_cn/ticket_common/ticketKindBuy.png);
+	text-indent: -9999px;
+}
+.ticket_area_info ul {
+	padding-left: 12px;
+}
+
+.kind02 {
+	background-position: -80px 0px;
+}
+.kind03 {
+	background-position: 0px -56px;
+}
+.kind04 {
+	background-position: -81px -56px;
+}
+.kind05 {
+	background-position: -161px -56px;
+}
+.kind06 {
+	background-position: -242px -56px;
+}
+.kind07 {
+	background-position: 0px -111px;
+}
+.kind08 {
+	background-position: -81px -111px;
+}
+.kind09 {
+	background-position: -161px -111px;
+}
+.kind10 {
+	background-position: -242px -111px;
+}
+.kind11 {
+	background-position: -161px 0px;
+}
+.date_for {
+	position: relative;
+}
+.date_for img {
+	position: absolute;
+	left: 200px;
+	top: 3px;
+}

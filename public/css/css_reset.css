@@ -1,0 +1,79 @@
+﻿@charset "utf-8";
+/* CSS Document Mi70  */
+/*normal*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+/* may be不會過標準化...但最小字體
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none; */
+}
+
+.straightline {    
+    float: left; 
+    width:1px; 
+    height:265px;
+    margin-top: 62px;
+    background: -webkit-linear-gradient(top,#FFFFFF,#e0e0e0,#e0e0e0,#e0e0e0,#e0e0e0);
+    background: -ms-linear-gradient(top,#FFFFFF,#e0e0e0,#e0e0e0,#e0e0e0,#e0e0e0); 
+    background: -moz-linear-gradient(top,#FFFFFF,#e0e0e0,#e0e0e0,#e0e0e0,#e0e0e0);  
+}
+html,button,input,select,textarea {font-family:"微軟正黑體", "Microsoft JhengHei",Arial, Helvetica, sans-serif;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-size: 0.75em;
+	background-image: url(../images_cn/common/body_bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+}
+ol, ul {
+	list-style: none;
+}
+img {border:none;display:block;}
+a {
+    color: #2d2929;
+}
+/*a:focus {outline:none;}*/
+a { /*hlbr:expression(this.onFocus=this.blur());  for IE7 else 不會過 */ text-decoration:none;}
+a:hover,a:active{outline:none;}
+h1,h2,h3,h4,h5,h6{font-size:1em;}
+strong{font-weight:bold;}
+em{font-style:normal;}
+/*if have audio canvas video
+audio,canvas,video {display: inline-block;zoom: 1;}audio:not([controls]) {display: none;height: 0;}*/
+
+/*if have table
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+fieldset {border:none;}
+
+/*if have form
+button,input {line-height: normal;}
+button,
+html input[type="button"],input[type="reset"],input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+button[disabled],input[disabled] {cursor: default;}
+input[type="checkbox"],input[type="radio"] {box-sizing: border-box; padding: 0; height: 13px; width: 13px;}
+input[type="search"] {-webkit-appearance: textfield;-moz-box-sizing: content-box;-webkit-box-sizing: content-box; box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+button::-moz-focus-inner,input::-moz-focus-inner {border:none;}
+textarea {overflow: auto;vertical-align: top;}
+*/
