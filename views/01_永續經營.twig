@@ -1,112 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<meta name="keywords" content="">
-<meta name="description" content="">
-<title>台灣高鐵</title>
-
-
-<link href="css/CSSDEV.css" rel="stylesheet" type="text/css" />
-
-
-<!--以上為設計使用,不需要填入後台--> 
-
-<link href="/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
-
-<style type="text/css">.common_content_inner h3 { margin-bottom:8px; font-size:15px; color:#db5106;}
-.tb_L { width:378px;}
-.tacle_set { padding-left:14px;}
-
-.PriceList2015 table {/*強制均分表格*/
-	table-layout: fixed;
-}
-.PriceList2015 th {/*灰底白字標題*/
-	text-align: center;
-	background-color: #7D7C7E;
-	color: #FFF;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-weight: bold;
-	width: 7%;
-}
-.PriceList2015 td {/*表格內文置中*/
-	text-align: center;	width: 7%;
-
-}
-.PriceList2015_2 tr:nth-child(odd) {/*偶數行灰底*/
-	background-color:#F0F0F0;
-}
-.E4F6FF {/*藍底黑字*/
-	text-align: center;
-	background-color: #E4F6FF;
-	color: #000;
-}
-.FFEBEF {/*粉底黑字*/
-	text-align: center;
-	background-color: #FFEBEF;
-	color: #000;
-}
-.B7DBBA {/*綠底黑字*/
-	text-align: center;
-	background-color: #B7DBBA;
-	color: #000;
-}
-.CCCCCC {/*灰底白字*/
-	text-align: center;
-	background-color: #CCCCCC;
-	color: #FFF;
-}
-.FFF {/*表格註解*/
-	padding-top: 6px;
-	padding-bottom: 5px;
-}
-caption {
-	font-size:1.2em;
-	font-weight: bold;
-	margin-bottom: 5px;
-}
-.introduction{/*引言*/
-	/*font-size:17px;*/
-	font-size:1.2em;
-	font-weight:bold;
-	margin-bottom:15px;
-}
-.common_article {
-	margin-bottom:40px;
-}
-.common_h2 { font-size:1.25em}
-.ul_kind1 { font-size:1em; margin-top:10px}
-.ul_kind1 li { padding-bottom:5px}
-.ul_kind1 ul { padding-left:25px; margin-top:5px}
-.ul_kind1 ul li { padding-bottom:5px; background:none; list-style-type:disc; }
-.common_article a { color: #db5106; text-decoration:underline}
-.common_article h3 { font-size:1.2em; padding:5px 0;}
-
-/*紅色大按鈕*/
-a.Interval { background:#db6205; width:90%; padding:8px 10px;line-height:1.3; margin-right:8px; color:#fff; text-decoration:none; display:inline-block; height:55px; text-align:center; float:left; margin-bottom:20px;}
-a.Interval:hover { background:#cc6600}
-a.Interval2 { background:#db6205; width:90%; padding:8px 10px;line-height:1.3; margin-right:8px; color:#fff; text-decoration:none; display:inline-block; text-align:center; margin-bottom:10px;padding-top: 18px;  height:45px;>
-a.Interval2:hover { background:#cc6600}
-.IntervalNote { padding-left:5px;}
-a.2line {padding-top: 18px;  height:45px;}
-</style>
-
-</head>
-<body>
-
-
-<div class="modArticle" >
-
-
-
+{# index.twig #}
+{% extends "/_template/layout.twig" %}
+{% block page %}
 
 
 <article class="common_article">
-
 <h1 class="title_h2">關鍵指標與績效</h1>
 <h3>2015和2016年績效亮點</h2>
 <div class="articleTitle">
@@ -145,10 +42,11 @@ a.2line {padding-top: 18px;  height:45px;}
 	<li>2015年辦理35件參訪，參訪人數1,049人；2016年辦理35件，參訪人數844人</li>
 </ul>
 
-
+<div class="articleTitle">
 <h2 class="articleTitleContent">關懷（Touch）-價值創造，關懷社會</h2>
-<ul class="ul_kind1">
+</div>
 
+<ul class="ul_kind1">
 	<li>培育員工不遺餘力，2015與2016年人均受訓時數分別為826小時與502小時，並於兩年中培育出59位內部合格講師</li>
 	<li>為確保員工健康，提供優於法令的健康檢查方案，2015與2016年皆超過2千名員工受惠</li>
 	<li>推廣鐵道產學合作，與四間大學合作共26個計畫案，並推廣大學生暑期實習與維修實習專案，於2015與2016年共有100位大專實習生，30位技術實習生參與計畫</li>
@@ -161,18 +59,4 @@ a.2line {padding-top: 18px;  height:45px;}
 </ul>
 </article>
 
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-</body>
-</html>
+{% endblock %} 
