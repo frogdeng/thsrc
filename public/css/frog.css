@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.clear {
+  clear: both; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.questionnaire {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  margin-top: 30px;
+  padding: 20px; }
+
+.questionnaire h6 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #dc5505; }
+
+.questionnaire .check_item {
+  float: left;
+  margin-right: 20px; }
+
+.questionnaire .input_item {
+  float: left;
+  margin-right: 20px; }
+
+.questionnaire .input_item input[type=text] {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #222;
+  border: 1px solid #c0c0c0; }
+
+.questionnaire .input_item input::-webkit-input-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input::-moz-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input:-ms-input-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input::placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item textarea {
+  width: 450px; }
+
+.questionnaire table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px; }
+
+.questionnaire table tr td {
+  border: 1px solid #eee;
+  padding: 8px 15px;
+  font-size: 14px; }
