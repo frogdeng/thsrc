@@ -10,7 +10,7 @@
 <title>台灣高鐵</title>
 
 <link href="css/CSSDEV.css" rel="stylesheet" type="text/css" />
-<link href="css/frog_m.css" rel="stylesheet" type="text/css" />
+<!-- <link href="css/frog_m.css" rel="stylesheet" type="text/css" /> -->
 
 </head>
 <!--以上為設計使用,不需要填入後台--> 
@@ -18,7 +18,83 @@
 
 
 <link href="/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
-<style type="text/css">.common_content_inner h3 { margin-bottom:8px; font-size:15px; color:#db5106;}
+<style type="text/css">
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.clear {
+  clear: both; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.questionnaire {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  margin-top: 30px;
+  padding: 20px; }
+
+.questionnaire h6 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #dc5505; }
+
+.questionnaire .check_item {
+  float: left;
+  margin-right: 20px; }
+
+.questionnaire .input_item {
+  float: left;
+  margin-right: 20px; }
+
+.questionnaire .input_item input[type=text] {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #222;
+  border: 1px solid #c0c0c0; }
+
+.questionnaire .input_item input::-webkit-input-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input::-moz-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input:-ms-input-placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item input::placeholder {
+  color: #eee;
+  font-weight: 100; }
+
+.questionnaire .input_item textarea {
+  width: 450px; }
+
+.questionnaire table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px; }
+
+.questionnaire table tr td {
+  border: 1px solid #eee;
+  padding: 8px 15px;
+  font-size: 14px; }
+
+
+
+
+.common_content_inner h3 { margin-bottom:8px; font-size:15px; color:#db5106;}
 .tb_L { width:378px;}
 .tacle_set { padding-left:14px;}
 
@@ -91,10 +167,14 @@ caption {
 /*紅色大按鈕*/
 a.Interval { background:#db6205; width:90%; padding:8px 10px;line-height:1.3; margin-right:8px; color:#fff; text-decoration:none; display:inline-block; height:55px; text-align:center; float:left; margin-bottom:20px;}
 a.Interval:hover { background:#cc6600}
-a.Interval2 { background:#db6205; width:90%; padding:8px 10px;line-height:1.3; margin-right:8px; color:#fff; text-decoration:none; display:inline-block; text-align:center; margin-bottom:10px;padding-top: 18px;  height:45px;>
+a.Interval2 { background:#db6205; width:90%; padding:8px 10px;line-height:1.3; margin-right:8px; color:#fff; text-decoration:none; display:inline-block; text-align:center; margin-bottom:10px;padding-top: 18px;  height:45px;}
 a.Interval2:hover { background:#cc6600}
 .IntervalNote { padding-left:5px;}
 a.2line {padding-top: 18px;  height:45px;}
+
+
+
+
 </style>
 
 
