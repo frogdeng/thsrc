@@ -1,0 +1,251 @@
+/* 英文版Nav 
+********************************************************/
+.top_nav_en {
+	clear: both;
+}
+.top_nav_en .top_24hours {
+	width: auto;
+}
+.top_nav_en .top_24hours a {
+	width: 186px;
+	background-image: url(/Content/images_en/common/btn.jpg);
+	background-repeat: no-repeat;
+	background-position: -787px 1px;
+}
+
+.top_nav_en li {
+	float: left;
+	height: 45px;
+	width: auto;
+}
+.top_nav_en li a {
+	display: block;
+	height: 45px;
+	background-image: url(/Content/images_en/common/btn.jpg);
+	background-position: 0px 7px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+.top_nav_en .nav_ticket a {
+	width: 209px;
+}
+.top_nav_en .nav_info a {
+	width: 145px;
+}
+
+.top_nav_en .nav_about a {
+	width: 124px;
+}
+.top_nav_en li.current a {
+	background-image: url(/Content/images_en/common/btn.jpg);
+	background-position-y:-45px;
+}
+.top_nav_en li a:hover {
+	background-image: url(/Content/images_en/common/btn.jpg);
+	background-position-y:-45px;
+}
+/* 
+ * 2012.12.25 Owen 
+ * Add for fixing IE6 showing wrong background color
+ */
+.top_nav_en li div a:hover {
+	background-image: none;
+}
+.top_nav_en .nav_info a {
+	background-position: -335px 1px;
+}
+.top_nav_en .nav_hot a {
+	background-position: 0px 1px;
+}
+.top_nav_en .nav_ticket a{
+	background-position: -126px 1px;
+}
+.top_nav_en .nav_about a {
+	background-position: -480px 1px;
+}
+.nav_info_en ul {
+	left: -257px;
+}
+.nav_hot_en ul {
+	left: -445px;
+}
+.nav_about_en ul {
+	left: -630px;
+}
+.nav_hot_en .dl {
+	left: 0px;
+}
+.nav_info_en .dl {
+	left: -335px;
+}
+.nav_about_en .dl {
+	left: -480px;
+}
+.nav_ticket_en .dl {    /*20150116 修正menu第一項跑板問題*/
+	left: -126px;
+}
+.top_nav_en ul .nav_ticket ul li a,.top_nav_en ul .nav_info_en ul li a,.top_nav_en ul .nav_hot_en ul li a,.top_nav_en ul .nav_about_en ul li a {
+	width: 116px;
+	line-height: 15px;
+	padding-bottom: 2px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.top_nav_en ul .nav_ticket ul li ul li a,.top_nav_en ul .nav_info_en ul li ul li a,.top_nav_en ul .nav_hot_en ul li ul li a,.top_nav_en ul .nav_about_en ul li ul li a {
+	font-size: 12px;
+}
+
+.top_nav_en ul .dl .dt a, .top_nav_en ul .dl .dd a {
+	width:220px
+}
+.top_nav_en ul .dl .dtnolink 
+{
+    width:220px
+}
+
+/*20160331 新增*/
+.nav_sponsor_en .dl{
+	left:-604px;
+}
+
+.top_nav_en .nav_sponsor a {
+    width: 183px;
+	background-position: -604px 1px;
+}
+
+.top_nav_en .top_24hours {
+	width: auto;
+}
+
+.top_nav_en .top_24hours a:hover {
+	background-image: url(/Content/images_en/common/btn.jpg);
+	background-position-y: 1px;
+}
+/*20160331 新增*/
+
+/* 英文版Nav End
+********************************************************/
+
+/* 日文版Nav 
+********************************************************/
+.top_nav_jp {
+	clear: both;
+}
+.top_nav_jp .top_24hours {
+	width: auto;
+}
+
+.top_nav_jp li {
+	float: left;
+	height: 45px;
+	width: auto;
+}
+.top_nav_jp li a {
+	display: block;
+	height: 45px;
+	background-image: url(/Content/images_jp/common/btn.jpg);
+	background-position: 0px 7px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+.top_nav_jp .nav_ticket a {
+	width: 210px;
+}
+
+.top_nav_jp li.current a {
+	background-image: url(/Content/images_jp/common/btn.jpg);
+	background-position-y:-45px;
+}
+.top_nav_jp li a:hover {
+	background-image: url(/Content/images_jp/common/btn.jpg);
+	background-position-y:-45px;
+}
+/* 
+ * 2012.12.25 Owen 
+ * Add for fixing IE6 showing wrong background color
+ */
+.top_nav_jp li div a:hover {
+	background-image: none;
+}
+.top_nav_jp .nav_info a {
+    width: 155px;
+	background-position: -365px 1px;
+}
+.top_nav_jp .nav_hot a {
+	background-position: 0px 1px;
+}
+.top_nav_jp .nav_about a {
+    width: 126px;
+	background-position: -520px 1px;
+}
+.top_nav_jp .nav_ticket a {
+    background-position: -155px 1px;
+}
+.nav_info_jp ul {
+	left: -257px;
+}
+.nav_hot_jp ul {
+	left: -445px;
+}
+.nav_about_jp ul {
+	left: -630px;
+}
+
+.nav_hot_jp .dl {
+	left: 0px;
+}
+.nav_info_jp .dl {
+	left: -365px;
+}
+.nav_about_jp .dl {
+	left: -520px;
+}
+.nav_ticket_jp .dl {    /*20150116 修正menu第一項跑板問題*/
+	left: -155px;
+}
+.top_nav_jp ul .nav_ticket ul li a,.top_nav_jp ul .nav_info_jp ul li a,.top_nav_jp ul .nav_hot_jp ul li a,.top_nav_jp ul .nav_about_jp ul li a {
+	width: 116px;
+	line-height: 18px;
+	padding-bottom: 4px;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.top_nav_jp ul .nav_ticket ul li ul li a,.top_nav_jp ul .nav_info_jp ul li ul li a,.top_nav_jp ul .nav_hot_jp ul li ul li a,.top_nav_jp ul .nav_about_jp ul li ul li a {
+	font-size: 12px;
+}
+
+.top_nav_jp ul .dl .dt a, .top_nav_jp ul .dl .dd a {
+	width:160px
+}
+.top_nav_jp ul .dl .dtnolink 
+{
+    width:160px
+}
+
+/*20160331 新增*/
+.nav_sponsor_jp .dl{
+	left:-646px;
+}
+
+.top_nav_jp .nav_sponsor a {
+    width: 139px;
+	background-position: -646px 1px;
+}
+
+.top_nav_jp .top_24hours {
+	width: auto;
+}
+.top_nav_jp .top_24hours a {
+    width: 186px;
+	background-image: url(/Content/images_jp/common/btn.jpg);
+	background-repeat: no-repeat;
+	background-position: -786px 1px;
+}
+.top_nav_jp .top_24hours a:hover {
+	background-image: url(/Content/images_jp/common/btn.jpg);
+	background-position-y: 1px;
+}
+/*20160331 新增*/
+
+/* 日文版Nav End
+********************************************************/

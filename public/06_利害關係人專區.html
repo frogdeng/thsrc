@@ -7,15 +7,22 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>台灣高鐵</title>
-<link href="css/css_reset.css"      rel="stylesheet" type="text/css" />
-<link href="css/innerCommon.css"      rel="stylesheet" type="text/css" />
-<link href="css/inner_pngFix.css"     rel="stylesheet" type="text/css" />
-<link href="css/inner_ticket.css"     rel="stylesheet" type="text/css" />
+<title>thsrc</title>
+
+<link href="css/css_reset.css" rel="stylesheet" type="text/css" />
+<link href="css/inner_pngFix.css" rel="stylesheet" type="text/css" />
+<link href="css/inner_ticket.css" rel="stylesheet" type="text/css" />
+
+<link href="css/jquery-ui-1.8.5.custom.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.fancybox-1.3.1.css" rel="stylesheet" type="text/css" />
+
+<link href="css/innerCommon.css" rel="stylesheet" type="text/css" />
+<link href="css/faq.css" rel="stylesheet" type="text/css" />
 <link href="css/inner_all_common.css" rel="stylesheet" type="text/css" />
 <link href="css/common_list_menu.css" rel="stylesheet" type="text/css" />
 
-<!-- <link href="css/frog.css" rel="stylesheet" type="text/css" /> -->
+
 
 </head>
 
@@ -23,9 +30,10 @@
 
 
 <link href="/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
+
 <style type="text/css">
 
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 .clear {
   clear: both; }
 
@@ -39,19 +47,14 @@
 .clearfix {
   zoom: 1; }
 
-*, *:before, *:after {
-  box-sizing: border-box; }
-
 .questionnaire {
   width: 100%;
-  border: 1px solid #c0c0c0;
-  margin-top: 30px;
-  padding: 20px; }
+  margin-top: 30px; }
 
 .questionnaire h6 {
   margin-bottom: 5px;
   margin-top: 15px;
-  color: #dc5505; }
+  color: #222; }
 
 .questionnaire .check_item {
   float: left;
@@ -93,13 +96,28 @@
   margin-bottom: 20px; }
 
 .questionnaire table tr td {
-  border: 1px solid #eee;
+  border: 1px solid #c0c0c0;
   padding: 8px 15px;
   font-size: 14px; }
 
+.faq_for_half {
+  width: 50%;
+  float: left; }
+
+.faq_form label {
+  width: 120px; }
+
+.submit_m {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #888;
+  color: #FFF; }
 
 
-
+  
 .common_content_inner h3 { margin-bottom:8px; font-size:15px; color:#db5106;}
 .tb_L { width:378px;}
 .tacle_set { padding-left:14px;}
@@ -192,9 +210,7 @@ a.Interval2:hover { background:#cc6600}
     text-indent: 8px;
     margin-bottom: 23px;
     clear: both;
-
 }
-
 
 </style>
 
@@ -214,12 +230,6 @@ a.Interval2:hover { background:#cc6600}
 	
 	<br>
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 
 	<div class="articleTitle">
 		<h2 class="articleTitleContent">利害關係人問卷</h2>
@@ -229,204 +239,157 @@ a.Interval2:hover { background:#cc6600}
 	為使本公司執行的重大性議題相關政策能夠滿足利害關係人的需要，特別規劃執行「台灣高鐵企業永續議題問卷調查」，我們非常重視您的意見，懇請您撥冗填答，俾利我們未來針對重大性考量面，規劃未來企業社會責任議題之目標與進程。感謝您協助填寫下列問卷(填寫時間約10分鐘)，本問卷所得資訊僅作為分析利害關係人關注考量面使用，不作為其他用途，感謝您的支持與協助!</p>
 	<br>
 	<p style="text-align: right;">台灣高鐵 敬啟</p>
-	
-
-	<div class="questionnaire">
-		
-		<h6>您的身份? (複選)  </h6> 
-		<div class="check_item">
-			<label for="box1"><input type="checkbox"  id="box1">旅客</label>
-		</div>
-		<div class="check_item">
-			<label for="box2"><input type="checkbox"  id="box2">社區居民</label>
-		</div>
-		<div class="check_item">
-			<label for="box3"><input type="checkbox"  id="box3">媒體</label>
-		</div>
-		<div class="check_item">
-			<label for="box4"><input type="checkbox"  id="box4">員工</label>
-		</div>
-		<div class="check_item">
-			<label for="box5"><input type="checkbox"  id="box5">股東/投資人</label>
-		</div>
-		<div class="check_item">
-			<label for="box6"><input type="checkbox"  id="box6">非政府組織（NGO）</label>
-		</div>
-		<div class="check_item">
-			<label for="box7"><input type="checkbox"  id="box7">供應商/承包商</label>
-		</div>
-		<div class="check_item">
-			<label for="box8"><input type="checkbox"  id="box8">政府/主管機關</label>
-		</div>
-
-
-		<div class="input_item">
-			<input type="text" placeholder="姓名">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="公司/機構名稱">
-		</div>		
-
-		<div class="clear"></div>
-
-		<h6>請問您是否曾經閱讀過台灣高鐵的企業社會責任報告書? </h6> 
-		<div class="check_item">
-			<label for="box9"><input type="radio"  id="box9">是</label>
-			<label for="box10"><input type="radio"  id="box10">否</label>
-		</div>
-		<div class="clear"></div>
-
-		<h6>下表為台灣高鐵企業社會責任報告書2015~2016年中所辨識出的重大性議題，供您參考以回答接下來的問卷題目。 </h6>
-		<table>
-		 	<tr>
-		 		<td>1.運輸安全管理</td>
-		 		<td>2.產品/服務品質</td>
-		 		<td>3.人文關懷與在地發展</td>
-		 		<td>4.供應商管理</td>
-		 	</tr>
-		 	<tr>
-		 		<td>5.營運策略</td>
-		 		<td>6.公司治理</td>
-		 		<td>7.疏運與轉運服務</td>
-		 		<td>8.職業安全衛生</td>
-		 	</tr>
-		 	<tr>
-		 		<td>9.員工培育與發展</td>
-		 		<td>10.招募與留任</td>
-		 		<td>11.企業形象</td>
-		 		<td>12.社會對話</td>
-		 	</tr>
-		 	<tr>
-		 		<td>13.災害預防與重大事件對策</td>
-		 		<td>14.法規遵循</td>
-		 		<td>15.氣候變遷減緩策略</td>
-		 		<td>16.降低噪音與震動</td>
-		 	</tr>		 	
-		 	<tr>
-		 		<td>17.氣候變遷調適策略</td>
-		 		<td>18.產品價格</td>
-		 		<td>19.創新服務</td>
-		 		<td>20.生態衝擊管理</td>
-
-		 	</tr>
-		 	<tr>
-		 		<td>21.營運績效</td>
-		 		<td>22.勞動權益保障</td>
-		 		<td>23.能資源使用效率</td>
-		 		<td></td>
-		 	</tr>
-		 </table> 
-
-		<p style="margin-bottom: 12px">您依據重大性議題清單回覆以下五個問題，請依據代碼回覆:</p>
-
-		<p>您自己最關心的三項議題:	</p>
-		<div class="input_item">
-			<input type="text" placeholder="1">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="2">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="3">
-		</div>		
-
-		<div class="clear" style="height: 20px"></div>
-
-		<p>您自己最不關心的三項議題:	</p>
-		<div class="input_item">
-			<input type="text" placeholder="1">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="2">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="3">
-		</div>	
-
-		<div class="clear" style="height: 20px"></div>
-
-		<p>您認為台灣高鐵最關心的三項議題:	</p>
-		<div class="input_item">
-			<input type="text" placeholder="1">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="2">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="3">
-		</div>
-
-		<div class="clear" style="height: 20px"></div>
-
-		<p>您認為台灣高鐵最不關心的三項議題:	</p>
-		<div class="input_item">
-			<input type="text" placeholder="1">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="2">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="3">
-		</div>		
-
-		<div class="clear" style="height: 20px"></div>
-
-		<p>您認為台灣高鐵最該公開揭露資訊的三項議題:	</p>
-		<div class="input_item">
-			<input type="text" placeholder="1">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="2">
-		</div>		
-		<div class="input_item">
-			<input type="text" placeholder="3">
-		</div>
-
-		<div class="clear" style="height: 20px"></div>
-
-		<p>您是否有其他「非常關心」議題，但未列於上表，請條列說明於下。	</p>
-		<div class="input_item">
-			<textarea name="" id="" cols="30" rows="10"></textarea>
-		</div>
-
-	<div class="clear"></div>
-	</div>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
 </article>
+
+
+
+
+<div class="questionnaire">
+	<section class="common_content">
+		<section class="faq_form">
+			<div class="bg_grey out_div">
+	            <fieldset>
+	                <div class="">
+	                    <h6>您的身份? (複選)  </h6>
+	                    <div class="clear"></div>	
+	                    <input type="checkbox" name="Sex" id="aa" value="1">            
+	                    <label style=" width: auto; margin-right: 20px" for="aa">旅客</label>
+
+	                    <input type="checkbox" name="Sex" id="aa1" value="0">
+	                    <label style=" width: auto; margin-right: 20px" for="aa1">社區居民</label>
+
+	                    <input type="checkbox" name="Sex" id="aa3" value="1">            
+	                   <label style=" width: auto; margin-right: 20px" for="aa3">媒體</label>
+
+	                    <input type="checkbox" name="Sex" id="aa4" value="0">
+	                    <label style=" width: auto; margin-right: 20px" for="aa4">員工</label>
+
+	                    <input type="checkbox" name="Sex" id="aa5" value="1">            
+	                   <label style=" width: auto; margin-right: 20px" for="aa5">股東/投資人</label>
+
+	                    <input type="checkbox" name="Sex" id="aa6" value="0">
+	                    <label style=" width: auto; margin-right: 20px" for="aa6">非政府組織（NGO）</label>
+
+	                    <input type="checkbox" name="Sex" id="aa7" value="1">            
+	              		<label style=" width: auto; margin-right: 20px" for="aa7">供應商/承包商</label>
+
+	                    <input type="checkbox" name="Sex" id="aa8" value="1">
+	                    <label style=" width: auto; margin-right: 20px" for="aa8">政府/主管機關</label>
+	                </div>
+	            </fieldset>
+	        </div>
+ 			<div class="out_div" style="background: #f7f7f7">
+				<fieldset>
+	                <div class="faq_for_half">
+	                    <label for="">姓名</label>
+	                    <input class="" id="" name="" type="text" value="">
+	             	</div>
+	    			<div class="faq_for_half">
+	                    <label for="">公司/機構名稱</label>
+	                    <input class="" id="" maxlength="23" name="" type="text" value="">
+	                </div>
+	            </fieldset>
+            </div>
+
+            <div class="bg_grey out_div">
+				<fieldset>
+					<h6>請問您是否曾經閱讀過台灣高鐵的企業社會責任報告書? </h6>
+	                <input type="radio" name="" id="Radio" value="1">            
+	                <label style=" width: auto; margin-right: 20px" for="Radio">是</label>
+
+	                <input type="radio" name="" id="Radio1" value="0">
+	               	<label style=" width: auto; margin-right: 20px" for="Radio1">否</label>
+	            </fieldset>
+            </div>
+			<div class="out_div" style="background: #f7f7f7">
+				<h6>下表為台灣高鐵企業社會責任報告書2015~2016年中所辨識出的重大性議題，供您參考以回答接下來的問卷題目。 </h6>
+				<table>
+				 	<tr>
+				 		<td>1.運輸安全管理</td>
+				 		<td>2.產品/服務品質</td>
+				 		<td>3.人文關懷與在地發展</td>
+				 		<td>4.供應商管理</td>
+				 	</tr>
+				 	<tr>
+				 		<td>5.營運策略</td>
+				 		<td>6.公司治理</td>
+				 		<td>7.疏運與轉運服務</td>
+				 		<td>8.職業安全衛生</td>
+				 	</tr>
+				 	<tr>
+				 		<td>9.員工培育與發展</td>
+				 		<td>10.招募與留任</td>
+				 		<td>11.企業形象</td>
+				 		<td>12.社會對話</td>
+				 	</tr>
+				 	<tr>
+				 		<td>13.災害預防與重大事件對策</td>
+				 		<td>14.法規遵循</td>
+				 		<td>15.氣候變遷減緩策略</td>
+				 		<td>16.降低噪音與震動</td>
+				 	</tr>		 	
+				 	<tr>
+				 		<td>17.氣候變遷調適策略</td>
+				 		<td>18.產品價格</td>
+				 		<td>19.創新服務</td>
+				 		<td>20.生態衝擊管理</td>
+
+				 	</tr>
+				 	<tr>
+				 		<td>21.營運績效</td>
+				 		<td>22.勞動權益保障</td>
+				 		<td>23.能資源使用效率</td>
+				 		<td></td>
+				 	</tr>
+				 </table> 
+				
+			<p>您依據重大性議題清單回覆以下五個問題，請依據代碼回覆:</p>
+			<p style="margin-bottom: 5px">您自己最關心的三項議題:	</p>
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<div class="clear" style="height: 25px"></div>			
+
+			
+			<p style="margin-bottom: 5px">您自己最不關心的三項議題::	</p>
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<div class="clear" style="height: 25px"></div>	
+			
+			<p style="margin-bottom: 5px">您認為台灣高鐵最關心的三項議題:	</p>
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<div class="clear" style="height: 25px"></div>	
+
+			<p style="margin-bottom: 5px">您認為台灣高鐵最不關心的三項議題:	</p>
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<div class="clear" style="height: 25px"></div>	
+
+			<p style="margin-bottom: 5px">您認為台灣高鐵最該公開揭露資訊的三項議題:	</p>
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<input id="" maxlength="23" name="" type="text" value="" style="margin-right: 10px">
+			<div class="clear" style="height: 25px"></div>	
+
+			<p style="margin-bottom: 5px">您認為台灣高鐵最該公開揭露資訊的三項議題:	</p>
+			<div class="input_item">
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="clear" style="height: 10px"></div>	
+			<a href="#" class="submit_m">送出</a>
+
+          </div>
+		</section>
+	</section>
+</div>
+
+
+
+
 
 </div>
 

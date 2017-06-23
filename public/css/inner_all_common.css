@@ -303,7 +303,7 @@
 	clear: both;
 }
 .ul_kind1 {
-	list-style-image: url('../images/ul.gif');
+	list-style-image: url(../images_tw/market_book/ul.gif);
 	color: #2d2929;
 	/*font-size: 13px;*/
 	font-size: 1.05em;
@@ -362,8 +362,8 @@
 }
 
 .title_h2 {
-	font-size: 24px;
-	/*font-size: 2em;*/
+	/*font-size: 24px;*/
+	font-size: 2em;
 	color: #db5106;
 	line-height: 27px;
 	margin-bottom: 12px;
@@ -654,4 +654,3 @@ font-weight:bolder;
 .time_check_left #SearchDate{
 	width:125px;
 }
-

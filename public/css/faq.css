@@ -1,0 +1,154 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.faq_nav{
+	width:245px;
+	background:#f0f0f0;
+	display:block;
+	margin-bottom: 50px;
+	float: left;
+	margin-right: 10px;
+}
+.faq_nav .title{background: url(../UploadFiles/faq/hot_faq.jpg) no-repeat  left top; height:52px; text-indent:-9999px;display:block;}
+.faq_nav ul{ padding:10px 20px;}
+.faq_nav li{ clear:both; padding:7px 5px 7px 20px; color:#2b2b2b; border-bottom:1px dashed #666666;background: url(../UploadFiles/group_book/liIcon.jpg) no-repeat 5px center;}
+.faq_nav li a{color:#000; display: block;}
+.faq_nav li.notbottom{ border-bottom: none;}
+.faq_sort{
+	position: relative;
+	width:708px;
+	float:left;
+	padding-left: 5px;
+}
+.faq_sort h2{font-size:24px;color:#db5106;height:50px; border-bottom:1px solid #eaeaea;}
+.faq_sort h3{height:54px;background:url(../UploadFiles/faq/search_sort_title.jpg) no-repeat left 15px;text-indent:-9999px; }
+.sort_list{
+	width:225px;
+	border:1px solid #eaeaea;
+	display:block;
+	margin-right: 10px;
+	float: left;
+}
+.sort_list h4{
+	height:22px;
+	background:#db5b06;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*.sort_list h4.a_01{background:url(/Content/UploadFiles/faq/faq_title_01.jpg) no-repeat left top;text-indent:-9999px;}
+.sort_list h4.a_02{background:url(/Content/UploadFiles/faq/faq_title_02.jpg) no-repeat left top;text-indent:-9999px;}
+.sort_list h4.a_03{background:url(/Content/UploadFiles/faq/faq_title_03.jpg) no-repeat left top;text-indent:-9999px;}
+*/.sort_list ul{ padding:15px;}
+.sort_list li{ clear:both; padding:7px 5px 7px 20px; color:#2d2929;background: url(../UploadFiles/group_book/liIcon.jpg) no-repeat 5px center;}
+.sort_list li a{color:#2d2929; display: block;}
+.sort_list.notSpace{ margin:0;}
+.qa_serch_area {background-image: url(../UploadFiles/faq/search_icon.jpg);background-repeat: no-repeat;padding-left: 30px;position:absolute;top:0px;right:74px;background-position:3px;}
+.qa_serch_btn {background-image: url(../UploadFiles/faq/search_btn_faq.jpg);text-indent: -9999px;display: block;height: 22px;width: 69px;position:absolute;top: 0px;right: -74px;background-position-y: -3px;}
+.common_content{position: relative; }
+.common_content .title_h2 {height:35px; margin-bottom:10px;clear:both;}
+.common_content .faq_h2 {font-size: 15px;color: #db5106;line-height: 32px;background-color: #f2f2f2; border-left:5px solid #dc6305; height:32px;padding-left:18px;margin:5px 0 17px 0;}
+.ticket_list{ margin:0 5px; padding-left:10px; font-size:15px;color:#666666;font-weight: normal;background-image: url(../images_cn/ticket_common/oraginArrow.png);background-repeat: no-repeat;background-position: 0px center;}
+.common_content .title_h3{ font-size:15px; color:#666666;font-weight: normal; clear:both;height:30px; padding-left:15px; margin-bottom:10px;}
+.common_content .title_h3 strong{ color:#cc6600; margin:0 10px;}
+.common_list{width:370px; float:left; padding:0 0 0 10px; padding-bottom: 30px;}
+.common_article h4{ color:#cc6600; }
+.common_article{border-bottom:#eaeaea 1px dashed; margin-bottom:15px; padding-bottom:15px;}
+.common_article .gray_bg{ padding:15px 8px; margin:0 0 10px 0;background:#fafafa; font-size:13px; color:#999999; display:block;}
+.common_article .gray_bg h4{ color:#cc6600; margin:0 0 10px 0;}
+.common_h2{margin-top:-10px;_margin-top:0px; display:block;}
+a.a1 {background-image: url(../UploadFiles/faq/a1.jpg);height:26px;width:142px;display: block;text-indent: -9999px;position: absolute;top:48px;_top:58px;right:10px;line-height: 1em;background-repeat: no-repeat;margin: 0px;padding: 0px;}
+a.a1.Space{right:-20px;}
+a.a2 {background-image: url(../UploadFiles/faq/faq_info_download.jpg);height:26px;width:92px;display: block;text-indent:-9999px;position: absolute;top:68px;right:0px;line-height: 1em;background-repeat: no-repeat;margin: 0px;padding: 0px;}
+
+.faq_btn_area {height:63px;margin-right: auto;margin-left: auto;clear: both;margin-bottom:15px;position: relative;padding-top: 24px;padding-left: 320px;}
+.faq_btn_area a {display: block;height: 60px;width: 148px;float: left;margin-right: 17px;}
+
+/*�����ڭ̭����}�l�˦�*/
+.faq_form em {line-height: 23px;display: block;height: 23px;float: left;padding-right: 10px;padding-left: 10px;}
+.faq_form img {float: left;margin-right:50px;margin-top:5px;margin-left:10px;}
+.faq_form input {float:left;  height:21px; }
+.faq_form small{ float:left; background:#ffcc99; width:100px; height:15px; margin:0 10px 0 5px; padding:5px;}
+.faq_form form { background:#f7f7f7; margin:0 10px;}
+.faq_form label {color:#666666;width:90px;display: block;height: 23px;line-height: 23px;background-image: url(../UploadFiles/register/point.gif);background-repeat: no-repeat;background-position: 110px center;float: left;}
+.faq_form label strong{color:#cc6600;margin:0 5px;}
+.out_div{padding:10px 10px; border-bottom:1px solid #fff; display:block;}
+.out_div fieldset em a{clear: both;color:#CC6600 ;text-decoration: underline; font-weight: normal;}
+.faq_article{float:left;width:475px; /*font-size:13px;*/ font-size:0.8em; }
+.faq_info{color:#2d2929;line-height: 1.5em;float:left;/*font-size:15px;*/ font-size:1.3em;border-top:1px solid #f1f1f1;padding:10px 0; display:block; width:960px; margin:0 10px;}
+.faq_info.notbottom{border-top:1px solid #fff;}
+.faq_info article{ display:block;} 
+.faq_info article em{ color:#cc6600; /*font-size:1.05em;*/ /*font-size:1em;*/}
+.faq_info figure {padding-top: 6px;color: #2d2929;float: left;margin-left:7px;/*font-.3eme:15px;*/font-size:1.3em;}
+.faq_info figure img {float: left; margin:0 15px 0 0;}
+.faq_info figcaption { min-width:180px; font-weight: 700; /*2016.01.18*/font-size:0.75em;}
+.faq_info .article_right{ display:block; float:right;}
+#phone {width: 38px;}
+#phone1 {width: 100px;}
+#phone2 {width: 38px;}
+#radio{width:15px;}
+form.check_ok {height: 20px;position: relative;border-right-style: none;border-bottom-style: none;border-left-style: none;padding-top: 20px;width: 973px;}
+.sayok_word {font-size: 13px;line-height: 20px;color: #dc6c05;height: 20px;padding-left: 40px;}
+#sayok {position: absolute;left: 15px;}
+.group_book_common_link {display: block;height: 42px;width: 168px;text-indent: -9999px;clear: both;}
+.common_article p {margin-bottom: 20px;}
+.faq_for_left {float: left;width: 300px;}
+.faq_for_right {float: left;width: 623px;}
+.faq_for_right span {color: #CC6600;}
+.faq_form fieldset {clear: both; padding:5px 0;}
+
+/*�����{�ǭ����}�l�˦�*/
+.faq_area_info {float:left;width:230px; margin:10px 10px 10px 0;}
+.faq_area_info p{ /*font-size:13px;*/ font-size:0.8em; color:#2d2929; font-weight: normal;padding:5px 20px 0 0;}
+.faq_querys {background: url(../UploadFiles/faq/faq_queries_bg.jpg) no-repeat 10px top;height:64px;width:970px; padding:15px 0 0 0;display:block;}
+.faq_querys .faq_condition {float:left;margin:0 20px 0 0; }
+.faq_querys .faq_condition input{ border:none; margin:5px 0;outline: none;float:left;width:94px;}
+.faq_querys .faq_condition select{ border:none; margin:5px 0;width:94px;float: left;}
+.faq_querys .faq_condition a{ display: block; overflow: hidden;}
+.faq_querys .faq_condition img{ border:none;float: left;vertical-align:middle; padding:5px 4px;}
+.faq_querys .faq_condition figure{margin-top:10px;float:left; display: inline;}
+.faq_queries {display: block;height:64px;width:170px;text-indent: -9999px;float: left;}
+.faq_td{ padding:0; margin:0 10px 40px 10px; border-collapse:collapse;color:#2d2929; width:956px;}
+.faq_td th{ padding:7px 5px; margin:0; background:#f2f2f2;border-bottom:1px solid #cccccc; border-right:1px solid #cccccc;border-left:1px solid #cccccc;}
+.faq_td td{ padding:7px 10px; margin:0; background:#fff;border-bottom:1px solid #cccccc; border-right:1px solid #cccccc;border-left:1px solid #cccccc;}
+.faq_td tr.gray_bg td{ padding:7px 10px; margin:0;background:#f2f2f2;border-bottom:1px solid #cccccc; border-right:1px solid #cccccc;border-left:1px solid #cccccc;}
+.outside_article {
+	clear: both;
+	margin-bottom: 10px;
+}
+/*0924�s�W�s���˦�*/
+.ul_kind1 li a {
+    color: #2d2929;
+    vertical-align: top;
+}
+.ul_kind1 li a:hover{color:#db5106;}
+.ul_kind1 li {
+    line-height: 2em;
+}
+.faq_sortTitle
+{
+    font-size: 24px;
+    color: #db5106;
+    height: 50px;
+    border-bottom: 1px solid #eaeaea;
+    display:block;
+}
+.faq_sort .choseH3
+{
+    height: 54px;
+    background: url(../UploadFiles/faq/search_sort_title.jpg) no-repeat left 15px;text-indent: -9999px;
+}
+/*2014/05/14*/
+.faq_h4_div
+{
+	height:22px;
+	background:#db5b06;
+	text-align:center;
+	color:#fff;
+	/*font-size:16px;*/
+	font-size:1.4em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight:bolder;
+}
