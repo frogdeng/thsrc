@@ -39,10 +39,6 @@
   color: #eee;
   font-weight: 100; }
 
-.questionnaire .input_item input::-moz-placeholder {
-  color: #eee;
-  font-weight: 100; }
-
 .questionnaire .input_item input:-ms-input-placeholder {
   color: #eee;
   font-weight: 100; }
@@ -101,6 +97,9 @@
 
 .table_desktop table tr td p {
   margin-bottom: 0; }
+
+.table_desktop table tr td img {
+  margin: 10px !important; }
 
 .common_article img {
   display: block;
