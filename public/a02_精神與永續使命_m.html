@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head><meta charset="utf-8" /><title>
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <!-- For iPhone 4 -->
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://m.thsrc.com.tw/Content/images/icon_114x114.jpg" />
-    <link rel="shortcut icon" href="http://m.thsrc.com.tw/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <!-- CSS -->
     
 <!-- Css -->
@@ -20,23 +21,23 @@
 <link href="http://m.thsrc.com.tw/Content/jquery/jquery-data.css" rel="stylesheet" type="text/css" />
 <link href="http://m.thsrc.com.tw/Content/css/base.css" rel="stylesheet" type="text/css" />
 
-<!-- JQuery -->
-<script type="text/javascript" src="http://m.thsrc.com.tw/Content/jquery/jquery.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://m.thsrc.com.tw/Content/jquery/jquery.js"></script>
+    
+    <!--GA分析開始-->
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<!--GA分析開始-->
-<script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-9967381-18', 'thsrc.com.tw');
-        ga('send', 'pageview');
-        
-</script>
-<!--GA分析結尾，我的下方一定要是</head>-->
+            ga('create', 'UA-9967381-18', 'thsrc.com.tw');
+            ga('send', 'pageview');
+            
+    </script>
+    <!--GA分析結尾，我的下方一定要是</head>-->
 </head>
 <body>
     <div data-role="page">
@@ -51,7 +52,7 @@
     <img src="http://m.thsrc.com.tw/Content/images/logo_640.png" width="124" alt="台灣高鐵" /></h1>
 <a class="ui-btn-right mainLinkList" href="#mainNav" data-corners="false" data-shadow="false">
     選單</a>
-    <div class='commonGTitle'>利害關係人專區</div>
+    <div class='commonGTitle'>智慧運輸</div>
     
 
 </div>
@@ -61,14 +62,16 @@
 <span class="articleArea current">
 <div class="articleSection">
 
+<link href="http://m.thsrc.com.tw/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
 
 
 
-
+<!-- Tab Menu-->
+        <div class="interChangeNav articleSecondMenu"><ul><li id="interchange1" class="current"><a  href='javascript:void(0)' class="ui-link">安全運輸</a></li><li id="interchange2" class=""><a href='javascript:void(0)' class="ui-link">智慧行車</a></li><li id="interchange3" class=""><a href='javascript:void(0)' class="ui-link">災害預防</a></li></ul> </div>     
+  <!-- Tab Menu End-->
 
 <!--上稿內容開始-->
 
-<link href="http://m.thsrc.com.tw/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
 <style type="text/css">
 .ui-input-text input, .ui-input-search input {
     background: #FFF}
@@ -164,6 +167,7 @@
   background-color: #888;
   color: #FFF; }
 
+
 .table_m table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -173,20 +177,25 @@
   border: 1px solid #c0c0c0;
   padding: 5px;
   font-size: 14px;
-  font-weight: bolder;
-  text-align: left; }
+  /*font-weight: bolder;*/
+/*  text-align: left;
+*/  background: #db5106;
+  color: #FFF }
 
 .table_m table tr td {
   border: 1px solid #c0c0c0;
   padding: 5px;
   font-size: 14px;
-  text-align: left; }
+  background: #EFEFEF;
+  /*text-align: left;*/ }
 
 .table_m table tr td p {
   margin-bottom: 0 !important; }
 
 .table_m table tr td img {
   margin: 10px !important; }
+
+
 .common_article h6 {
   font-size: 17px;
   margin-bottom: 0;
@@ -266,7 +275,10 @@ caption {
 .ul_kind1 ul { padding-left:25px; margin-top:5px}
 .ul_kind1 ul li { padding-bottom:5px; background:none; list-style-type:disc; }
 .common_article a { color: #db5106; text-decoration:underline}
-.common_article h3 { font-size:1.2em; padding:5px 0;}
+.common_article h3 { font-size:1em; padding:5px 0;}
+.title_h2{
+    font-size: 23px;
+}
 </style>
 
 
@@ -340,6 +352,20 @@ caption {
 </div>
 </span>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

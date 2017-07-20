@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head><meta charset="utf-8" /><title>
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <!-- For iPhone 4 -->
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://m.thsrc.com.tw/Content/images/icon_114x114.jpg" />
-    <link rel="shortcut icon" href="http://m.thsrc.com.tw/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <!-- CSS -->
     
 <!-- Css -->
@@ -20,23 +21,23 @@
 <link href="http://m.thsrc.com.tw/Content/jquery/jquery-data.css" rel="stylesheet" type="text/css" />
 <link href="http://m.thsrc.com.tw/Content/css/base.css" rel="stylesheet" type="text/css" />
 
-<!-- JQuery -->
-<script type="text/javascript" src="http://m.thsrc.com.tw/Content/jquery/jquery.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://m.thsrc.com.tw/Content/jquery/jquery.js"></script>
+    
+    <!--GA分析開始-->
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<!--GA分析開始-->
-<script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-9967381-18', 'thsrc.com.tw');
-        ga('send', 'pageview');
-        
-</script>
-<!--GA分析結尾，我的下方一定要是</head>-->
+            ga('create', 'UA-9967381-18', 'thsrc.com.tw');
+            ga('send', 'pageview');
+            
+    </script>
+    <!--GA分析結尾，我的下方一定要是</head>-->
 </head>
 <body>
     <div data-role="page">
@@ -51,7 +52,7 @@
     <img src="http://m.thsrc.com.tw/Content/images/logo_640.png" width="124" alt="台灣高鐵" /></h1>
 <a class="ui-btn-right mainLinkList" href="#mainNav" data-corners="false" data-shadow="false">
     選單</a>
-    <div class='commonGTitle'>利害關係人專區</div>
+    <div class='commonGTitle'>智慧運輸</div>
     
 
 </div>
@@ -61,14 +62,16 @@
 <span class="articleArea current">
 <div class="articleSection">
 
+<link href="http://m.thsrc.com.tw/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
 
 
 
-
+<!-- Tab Menu-->
+        <div class="interChangeNav articleSecondMenu"><ul><li id="interchange1" class="current"><a  href='javascript:void(0)' class="ui-link">安全運輸</a></li><li id="interchange2" class=""><a href='javascript:void(0)' class="ui-link">智慧行車</a></li><li id="interchange3" class=""><a href='javascript:void(0)' class="ui-link">災害預防</a></li></ul> </div>     
+  <!-- Tab Menu End-->
 
 <!--上稿內容開始-->
 
-<link href="http://m.thsrc.com.tw/content/css/earlybird_preferent.css" rel="stylesheet" type="text" />
 <style type="text/css">
 .ui-input-text input, .ui-input-search input {
     background: #FFF}
@@ -164,6 +167,7 @@
   background-color: #888;
   color: #FFF; }
 
+
 .table_m table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -173,20 +177,25 @@
   border: 1px solid #c0c0c0;
   padding: 5px;
   font-size: 14px;
-  font-weight: bolder;
-  text-align: left; }
+  /*font-weight: bolder;*/
+/*  text-align: left;
+*/  background: #db5106;
+  color: #FFF }
 
 .table_m table tr td {
   border: 1px solid #c0c0c0;
   padding: 5px;
   font-size: 14px;
-  text-align: left; }
+  background: #EFEFEF;
+  /*text-align: left;*/ }
 
 .table_m table tr td p {
   margin-bottom: 0 !important; }
 
 .table_m table tr td img {
   margin: 10px !important; }
+
+
 .common_article h6 {
   font-size: 17px;
   margin-bottom: 0;
@@ -266,7 +275,10 @@ caption {
 .ul_kind1 ul { padding-left:25px; margin-top:5px}
 .ul_kind1 ul li { padding-bottom:5px; background:none; list-style-type:disc; }
 .common_article a { color: #db5106; text-decoration:underline}
-.common_article h3 { font-size:1.2em; padding:5px 0;}
+.common_article h3 { font-size:1em; padding:5px 0;}
+.title_h2{
+    font-size: 23px;
+}
 </style>
 
 
@@ -280,16 +292,316 @@ caption {
 	<p>身為國內鐵路產業中唯一的高速鐵路營運公司，員工為我們的核心動能之一，培育專業人才為我們重要使命。為因應新站的設立及優化員工勞動時數的調配，我們於2016年大幅提升總員工數量，兼顧業務需求及員工期許。</p>
 	
 	<h5>人力結構</h5>
-	<img src="http://www.thsrc.com.tw/event/tmp/img/e01.jpg" style="width: 80%; display: block; margin: 0px auto">
+	<div style="overflow: auto" class="table_m">  
+		<table align="center" width="500">
+			<tr>
+				<th align="center" width="20%"></th>
+				<th align="center" colspan="2">2014</th>
+				<th align="center" colspan="2">2015</th>
+				<th align="center" colspan="2">2016</th>
+			</tr>
+			<tr>
+				<td align="center"></td>
+				<td align="center"> 男 </td>
+				<td align="center"> 女 </td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+			</tr>
+			<tr>
+				<td align="center">總勞動力</td>
+				<td align="center">2425</td>
+				<td align="center">1241</td>
+				<td align="center">2441</td>
+				<td align="center">1338</td>
+				<td align="center">2750</td>
+				<td align="center">1599</td>
+			</tr>
+			<tr>
+				<td align="center">男女比例</td>
+				<td align="center">66%</td>
+				<td align="center">34%</td>
+				<td align="center">65%</td>
+				<td align="center">35%</td>
+				<td align="center">63%</td>
+				<td align="center">37%</td>
+			</tr>
+			<tr>
+				<td align="center">總勞動力 （男女合計）</td>
+				<td align="center" colspan="2">3666</td>
+				<td align="center" colspan="2">3779</td>
+				<td align="center" colspan="2">4349</td>
+			</tr>
+		</table>
+	</div>
 
 	<h3>包容性的員工任用</h3>
 	<p>近年台灣高鐵積極提升員工向心力，且搭配著財務改善計畫及公司上市等變革，2015和2016年的離職比例有顯著下降。</p>
 
 	<h5>新進員工統計</h5>
-	<img src="http://www.thsrc.com.tw/event/tmp/img/e02.jpg" style="width: 80%; display: block; margin: 0px auto">
+
+	<div style="overflow: auto" class="table_m">  
+		<table align="center" width="800">
+			<tr>
+				<th colspan="2" width="25%"></th>
+				<th colspan="2">2014</th>
+				<th colspan="2">2015</th>
+				<th colspan="2">201</th>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">類別</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+			</tr>
+			<tr>
+				<td align="center" rowspan="7">職類</td>
+				<td align="center">列車服務人員</td>
+				<td align="center">44</td>
+				<td align="center">153</td>
+				<td align="center">28</td>
+				<td align="center">136</td>
+				<td align="center">7</td>
+				<td align="center">62</td>
+			</tr>			
+			<tr>
+				<td align="center">車站服務人員</td>
+				<td align="center">70</td>
+				<td align="center">175</td>
+				<td align="center">69</td>
+				<td align="center">143</td>
+				<td align="center">86</td>
+				<td align="center">249</td>
+			</tr>				
+			<tr>
+				<td align="center">行控人員</td>
+				<td align="center">22</td>
+				<td align="center">2</td>
+				<td align="center">0</td>
+				<td align="center">0</td>
+				<td align="center">0</td>
+				<td align="center">0</td>
+			</tr>
+			<tr>
+				<td align="center">駕駛人員</td>
+				<td align="center">0</td>
+				<td align="center">0</td>
+				<td align="center">2</td>
+				<td align="center">0</td>
+				<td align="center">16</td>
+				<td align="center">1</td>
+			</tr>
+			<tr>
+				<td align="center">維修人員</td>
+				<td align="center">136</td>
+				<td align="center">0</td>
+				<td align="center">84</td>
+				<td align="center">0</td>
+				<td align="center">231</td>
+				<td align="center">0</td>
+			</tr>					
+			<tr>
+				<td align="center">其他</td>
+				<td align="center">64</td>
+				<td align="center">34</td>
+				<td align="center">39</td>
+				<td align="center">20</td>
+				<td align="center">70</td>
+				<td align="center">67</td>
+			</tr> 					
+			<tr>
+				<td align="center">合計</td>
+				<td align="center">336</td>
+				<td align="center">364</td>
+				<td align="center">222</td>
+				<td align="center">299</td>
+				<td align="center">410</td>
+				<td align="center">379</td>
+			</tr>
+			<tr>
+				<td align="center" rowspan="3">年齡</td>
+				<td align="center">30歲以下</td>
+				<td align="center">257</td>
+				<td align="center">338</td>
+				<td align="center">156</td>
+				<td align="center">285</td>
+				<td align="center">277</td>
+				<td align="center">337</td>
+			</tr>							
+			<tr>
+				<td align="center">30-50歲</td>
+				<td align="center">58</td>
+				<td align="center">26</td>
+				<td align="center">62</td>
+				<td align="center">14</td>
+				<td align="center">126</td>
+				<td align="center">39</td>
+			</tr>							 
+			<tr>
+				<td align="center">50歲以上</td>
+				<td align="center">21</td>
+				<td align="center">0</td>
+				<td align="center">4</td>
+				<td align="center">0</td>
+				<td align="center">7</td>
+				<td align="center">3</td>
+			</tr>			
+			<tr>
+				<td align="center" colspan="2">合計</td>
+				<td align="center">336</td>
+				<td align="center">364</td>
+				<td align="center">222</td>
+				<td align="center">299</td>
+				<td align="center">410</td>
+				<td align="center">379</td>
+			</tr> 					
+			<tr>
+				<td align="center" colspan="2">全員占比</td>
+				<td align="center">9.17%</td>
+				<td align="center">9.93%</td>
+				<td align="center">5.87%</td>
+				<td align="center">7.91%</td>
+				<td align="center">9.41%</td>
+				<td align="center">8.69%</td>
+			</tr>
+		</table>
+	</div>
+
 
 	<h5>離職員工統計</h5>
-	<img src="http://www.thsrc.com.tw/event/tmp/img/e03.jpg" style="width: 80%; display: block; margin: 0px auto">
+	<div style="overflow: auto" class="table_m">  
+		<table align="center" width="800">
+			<tr>
+				<th colspan="2" width="25%"></th>
+				<th colspan="2">2014</th>
+				<th colspan="2">2015</th>
+				<th colspan="2">201</th>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">類別</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+			</tr>
+			<tr>
+				<td align="center" rowspan="7">職類</td>
+				<td align="center">列車服務人員</td>
+				<td align="center">13</td>
+				<td align="center">116</td>
+				<td align="center">23</td>
+				<td align="center">98</td>
+				<td align="center">5</td>
+				<td align="center">8</td>
+			</tr>			
+			<tr>
+				<td align="center">車站服務人員</td>
+				<td align="center">72</td>
+				<td align="center">106</td>
+				<td align="center">36</td>
+				<td align="center">55</td>
+				<td align="center">36</td>
+				<td align="center">27</td>
+			</tr>				
+			<tr>
+				<td align="center">行控人員</td>
+				<td align="center">9</td>
+				<td align="center">1</td>
+				<td align="center">7</td>
+				<td align="center">2</td>
+				<td align="center">4</td>
+				<td align="center">0</td>
+			</tr>
+			<tr>
+				<td align="center">駕駛人員</td>
+				<td align="center">3</td>
+				<td align="center">0</td>
+				<td align="center">6</td>
+				<td align="center">0</td>
+				<td align="center">4</td>
+				<td align="center">0</td>
+			</tr>
+			<tr>
+				<td align="center">維修人員</td>
+				<td align="center">56</td>
+				<td align="center">0</td>
+				<td align="center">69</td>
+				<td align="center">0</td>
+				<td align="center">42</td>
+				<td align="center">0</td>
+			</tr>					
+			<tr>
+				<td align="center">其他</td>
+				<td align="center">81</td>
+				<td align="center">49</td>
+				<td align="center">92</td>
+				<td align="center">47</td>
+				<td align="center">38</td>
+				<td align="center">11</td>
+			</tr> 					
+			<tr>
+				<td align="center">合計</td>
+				<td align="center">234</td>
+				<td align="center">272</td>
+				<td align="center">233</td>
+				<td align="center">202</td>
+				<td align="center">129</td>
+				<td align="center">46</td>
+			</tr>					
+			<tr>
+				<td align="center" rowspan="3">年齡</td>
+				<td align="center">30歲以下</td>
+				<td align="center">114</td>
+				<td align="center">227</td>
+				<td align="center">95</td>
+				<td align="center">146</td>
+				<td align="center">48</td>
+				<td align="center">33</td>
+			</tr>						
+			<tr>
+				<td align="center">30-50歲</td>
+				<td align="center">97</td>
+				<td align="center">44</td>
+				<td align="center">100</td>
+				<td align="center">55</td>
+				<td align="center">47</td>
+				<td align="center">9</td>
+			</tr>											 
+			<tr>
+				<td align="center">50歲以上</td>
+				<td align="center">23</td>
+				<td align="center">1</td>
+				<td align="center">38</td>
+				<td align="center">1</td>
+				<td align="center">34</td>
+				<td align="center">4</td>
+			</tr>			
+			<tr>
+				<td align="center" colspan="2">合計</td>
+				<td align="center">234</td>
+				<td align="center">272</td>
+				<td align="center">233</td>
+				<td align="center">202</td>
+				<td align="center">129</td>
+				<td align="center">46</td>
+			</tr> 									
+			<tr>
+				<td align="center" colspan="2">全員占比</td>
+				<td align="center">6.38%</td>
+				<td align="center">7.42%</td>
+				<td align="center">6.17%</td>
+				<td align="center">5.35%</td>
+				<td align="center">4.69%</td>
+				<td align="center">2.88%</td>
+			</tr> 					
+		</table>
+	</div>
 
 
 	<p>在身障者進用方面，除在招募網站上設置身心障礙人員招募專區，更根據不同職務特性，聘任身心障礙員工，在2015與2016年分別雇用32名、53名身障者員工，符合身障者權益保護法要求。而在原住民進用方面，雖致力於滿足法規要求，但2015年原住民進用人數仍不足3名，故積極與原住民委員會連繫推薦人選，2016年共進用43名原住民，達成進用目標。未來將持續透過各種管道進行招募，確保員工多元性。</p>
@@ -426,7 +738,65 @@ caption {
 
 	<p>台灣高鐵訓練模式主要區分為內、外部訓練課程、線上數位課程與實作演練等，滿足員工對學習的高度熱忱及我們對於專業技能的高標準要求。</p>
 
-	<img src="http://www.thsrc.com.tw/event/tmp/img/e04.jpg" style="width: 80%; display: block; margin: 0px auto">
+
+	<div style="overflow: auto" class="table_m">  
+		<table align="center" width="800">
+			<tr>
+				<th width="20%">訓練課程數量及費用</th>
+				<th colspan="3">2014</th>
+				<th colspan="3">2015</th>
+				<th colspan="3">2016</th>
+			</tr>
+			<tr>
+				<td align="center"></td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">合計</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">合計</td>
+				<td align="center">男</td>
+				<td align="center">女</td>
+				<td align="center">合計</td>
+			</tr>
+			<tr>
+				<td align="center">訓練課程（班數）</td>
+				<td align="center">1,766</td>
+				<td align="center">905</td>
+				<td align="center">2,671</td>
+				<td align="center">1,789</td>
+				<td align="center">980</td>
+				<td align="center">2,769</td>
+				<td align="center">1,823</td>
+				<td align="center">1,062</td>
+				<td align="center">2,885</td>
+			</tr>								
+			<tr>
+				<td align="center">人次平均訓練費用（元）</td>
+				<td align="center">119</td>
+				<td align="center">62</td>
+				<td align="center">181</td>
+				<td align="center">135</td>
+				<td align="center">70</td>
+				<td align="center">205</td>
+				<td align="center">163</td>
+				<td align="center">95</td>
+				<td align="center">258</td>
+			</tr> 								
+			<tr>
+				<td align="center">人均訓練費用（元）</td>
+				<td align="center">2,249</td>
+				<td align="center">1,153</td>
+				<td align="center">3,402</td>
+				<td align="center">2,464</td>
+				<td align="center">1,351</td>
+				<td align="center">3,815</td>
+				<td align="center">2,201</td>
+				<td align="center">1,281</td>
+				<td align="center">3,482</td>
+			</tr> 								
+		</table>
+	</div>
 
 	<p>2015和2016 年投入人時最多之訓練類別為高速鐵路專業訓練之運轉服務類、維修類及鐵路安全等訓練課程，此三類訓練為專業職能構面中各類專業人員之訓練系列課程。</p>
 
@@ -461,45 +831,45 @@ caption {
 
 
 	<div style="overflow: auto" class="table_m">  
-		<table align="center" border="0" cellpadding="0" cellspacing="1" style="color: rgb(0, 0, 0); line-height: 22px;" width="700">
+		<table width="700">
 			<tr>
-				<td align="center" width="40%" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">高雄第一科技大學（合作備忘錄期間：2012/03/15~2017/03/14）</p>
-				</td>
-				<td align="center" width="60%"  bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">截至2016年11月，道岔、車輛、軌道等專案合作共17案，另有高鐵維修實習生專案、合設鐵道設備實驗室、以及在職專班進修專案。</p>
+				<th width="40%">
+					高雄第一科技大學（合作備忘錄期間：2012/03/15~2017/03/14）
+				</th>
+				<td width="60%" >
+					截至2016年11月，道岔、車輛、軌道等專案合作共17案，另有高鐵維修實習生專案、合設鐵道設備實驗室、以及在職專班進修專案。
 				</td>
 			</tr>
 			<tr>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">臺北科技大學（合作備忘錄期間：2012/06/11~2017/06/10）</p>
-				</td>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">截至2016年11月，工程車定位、電力設備維護管理系統等專案合作共5案，另有高鐵維修實習生專案。</p>
-				</td>
-			</tr>
-			<tr>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">中華大學（合作備忘錄期間：2015/09/01~2020/08/31）</p>
-				</td>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">截至2016年11月，專案合作共2案，包括電力需量最佳化和路線檢測資料分析。</p>
+				<th>
+					臺北科技大學（合作備忘錄期間：2012/06/11~2017/06/10）
+				</th>
+				<td>
+					截至2016年11月，工程車定位、電力設備維護管理系統等專案合作共5案，另有高鐵維修實習生專案。
 				</td>
 			</tr>
 			<tr>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">高雄第一科技大學&臺北市政府教育局（合作備忘錄期間：2016/04/27~2019/04/26）</p>
-				</td>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">於2016年7月辦理首屆「軌道車輛工程學習營」。</p>
+				<th>
+					中華大學（合作備忘錄期間：2015/09/01~2020/08/31）
+				</th>
+				<td>
+					截至2016年11月，專案合作共2案，包括電力需量最佳化和路線檢測資料分析。
 				</td>
 			</tr>
 			<tr>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">成功大學軌道運輸中心（合作備忘錄期間：2016/08/01~2021/07/31）</p>
+				<th>
+					高雄第一科技大學&臺北市政府教育局（合作備忘錄期間：2016/04/27~2019/04/26）
+				</th>
+				<td>
+					於2016年7月辦理首屆「軌道車輛工程學習營」。
 				</td>
-				<td align="center" bgcolor="#EFEFEF" valign="middle" style="padding:8px;">
-					<p style="margin: 0">截至2017年2月，車站輪班人員排班系統專案陳核作業中。</p>
+			</tr>
+			<tr>
+				<th>
+					成功大學軌道運輸中心（合作備忘錄期間：2016/08/01~2021/07/31）
+				</th>
+				<td>
+					截至2017年2月，車站輪班人員排班系統專案陳核作業中。
 				</td>
 			</tr>
 			
@@ -537,6 +907,20 @@ caption {
 </div>
 </span>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
